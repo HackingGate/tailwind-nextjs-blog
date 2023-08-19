@@ -4,7 +4,6 @@
 import { promises as fs } from 'fs'
 import path from 'path'
 import { Octokit } from '@octokit/rest'
-import GithubSlugger from 'github-slugger'
 import { allAuthors } from '../.contentlayer/generated/Authors/_index.mjs'
 import fetch from "node-fetch";
 
@@ -15,28 +14,34 @@ const octokit = new Octokit({
 const fetchAuthorReadme = async () => {
   const authors = allAuthors.filter((author) => author.github)
   for (const author of authors) {
-    const { data } = await octokit.repos.getContent({
-      owner: author.github,
-      repo: author.github,
-      path: 'README.md',
-      request: {
-        fetch: fetch
-      },
-    })
+    // TBD: Make the for loop continue even if one of the requests fails
 
-    const content = Buffer.from(data.content, 'base64').toString()
-    const slug = GithubSlugger.slug(author.name)
-    // Rewrite the mdx file
-    const mdx = `---
+    try {
+      const { data } = await octokit.repos.getContent({
+        owner: author.github,
+        repo: author.github,
+        path: 'README.md',
+        request: {
+          fetch: fetch
+        },
+      })
+
+      const content = Buffer.from(data.content, 'base64').toString()
+      // Rewrite the mdx file
+      const mdx = `---
 name: ${author.name}
-github: ${author.github}
 avatar: ${author.avatar}
 email: ${author.email}
+github: ${author.github}
 ---
 ${content}
 `
-    const filepath = path.join(process.cwd(), 'data', 'authors', `${slug}.mdx`)
-    await fs.writeFile(filepath, mdx)
+      const filepath = path.join(process.cwd(), 'data', 'authors', `${author.slug}.mdx`)
+      await fs.writeFile(filepath, mdx)
+    } catch (error) {
+      console.log(error)
+    }
+
   }
 }
 
