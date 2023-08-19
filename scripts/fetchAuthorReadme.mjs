@@ -26,7 +26,11 @@ const fetchAuthorReadme = async () => {
         },
       })
 
-      const content = Buffer.from(data.content, 'base64').toString()
+      // TBD: Make the MDX fully compatible with GitHub Flavored Markdown
+      // Workaround: Remove unsupported features
+      let content = Buffer.from(data.content, 'base64').toString()
+      content = removeUnsupportedFeatures(content)
+
       // Rewrite the mdx file
       const mdx = `---
 name: ${author.name}
@@ -34,8 +38,8 @@ avatar: ${author.avatar}
 email: ${author.email}
 github: ${author.github}
 ---
-${content}
-`
+${content}`
+
       const filepath = path.join(process.cwd(), 'data', 'authors', `${author.slug}.mdx`)
       await fs.writeFile(filepath, mdx)
     } catch (error) {
@@ -43,6 +47,29 @@ ${content}
     }
 
   }
+}
+
+const removeUnsupportedFeatures = (content) => {
+
+  let contentToReturn = content
+
+  // Remove HTML comments
+  const regex = /<!--[\s\S]*?-->/g
+  contentToReturn = contentToReturn.replace(regex, '')
+
+  // Remove badges
+  const regex2 = /\[!\[.*\]\(.*\)\]\(.*\)/g
+  contentToReturn = contentToReturn.replace(regex2, '')
+
+  // Remove HTML tags
+  const regex3 = /<[^>]*>/g
+  contentToReturn = contentToReturn.replace(regex3, '')
+
+  // Remove empty lines
+  const regex4 = /^\s*[\r\n]/gm
+  contentToReturn = contentToReturn.replace(regex4, '')
+
+  return contentToReturn
 }
 
 export default fetchAuthorReadme
