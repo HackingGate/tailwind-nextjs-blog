@@ -56,8 +56,6 @@ email: ${author.email}
 github: ${author.github}
 ---
 ${content}
-___
-**Data fetched from GitHub repository on:** ${new Date().toISOString()}  
 [See full README.md](${data.html_url})  
 `
 
