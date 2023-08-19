@@ -26,6 +26,20 @@ const fetchAuthorReadme = async () => {
         },
       })
 
+      // Fetch avatar from GitHub
+      const avatar = await octokit.users.getByUsername({
+        username: author.github,
+        request: {
+          fetch: fetch
+        },
+      })
+      const avatarData = await fetch(avatar.data.avatar_url)
+      // Overwrite avatar to the path of author.avatar
+      await fs.writeFile(
+        path.join(process.cwd(), 'public', author.avatar),
+        await avatarData.buffer(),
+      )
+
       // TBD: Make the MDX fully compatible with GitHub Flavored Markdown
       // Workaround: Remove unsupported features
       let content = Buffer.from(data.content, 'base64').toString()
