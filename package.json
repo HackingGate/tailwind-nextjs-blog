@@ -3,9 +3,10 @@
   "version": "2.0.1",
   "private": true,
   "scripts": {
+    "fetchdata": "node ./scripts/fetchdata.mjs",
     "start": "next dev",
     "dev": "cross-env INIT_CWD=$PWD next dev",
-    "build": "node ./scripts/prebuild.mjs && cross-env INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",
+    "build": "cross-env INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",
     "serve": "next start",
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir app --dir components --dir lib --dir layouts --dir scripts"
