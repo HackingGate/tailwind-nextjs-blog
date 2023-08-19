@@ -16,10 +16,13 @@ const fetchAuthorReadme = async () => {
   for (const author of authors) {
     // TBD: Make the for loop continue even if one of the requests fails
 
+    // Get GitHub username from GitHub URL
+    const githubUsername = author.github.split('/').pop()
+
     try {
       const { data } = await octokit.repos.getContent({
-        owner: author.github,
-        repo: author.github,
+        owner: githubUsername,
+        repo: githubUsername,
         path: 'README.md',
         request: {
           fetch: fetch
@@ -28,7 +31,7 @@ const fetchAuthorReadme = async () => {
 
       // Fetch avatar from GitHub
       const avatar = await octokit.users.getByUsername({
-        username: author.github,
+        username: githubUsername,
         request: {
           fetch: fetch
         },
