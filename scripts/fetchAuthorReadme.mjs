@@ -5,11 +5,9 @@ import { promises as fs } from 'fs'
 import path from 'path'
 import { Octokit } from '@octokit/rest'
 import { allAuthors } from '../.contentlayer/generated/Authors/_index.mjs'
-import fetch from "node-fetch";
+import fetch from 'node-fetch'
 
-const octokit = new Octokit({
-  auth: process.env.GITHUB_TOKEN,
-})
+const octokit = new Octokit()
 
 const fetchAuthorReadme = async () => {
   const authors = allAuthors.filter((author) => author.github)
@@ -25,7 +23,7 @@ const fetchAuthorReadme = async () => {
         repo: githubUsername,
         path: 'README.md',
         request: {
-          fetch: fetch
+          fetch: fetch,
         },
       })
 
@@ -33,14 +31,14 @@ const fetchAuthorReadme = async () => {
       const avatar = await octokit.users.getByUsername({
         username: githubUsername,
         request: {
-          fetch: fetch
+          fetch: fetch,
         },
       })
       const avatarData = await fetch(avatar.data.avatar_url)
       // Overwrite avatar to the path of author.avatar
       await fs.writeFile(
         path.join(process.cwd(), 'public', author.avatar),
-        await avatarData.buffer(),
+        await avatarData.buffer()
       )
 
       // TBD: Make the MDX fully compatible with GitHub Flavored Markdown
@@ -64,12 +62,10 @@ ${content}
     } catch (error) {
       console.log(error)
     }
-
   }
 }
 
 const removeUnsupportedFeatures = (content) => {
-
   let contentToReturn = content
 
   // Remove HTML comments
