@@ -1,7 +1,7 @@
 import fetchAuthorReadme from './fetchAuthorReadme.mjs'
 
-async function fetchdata() {
+async function prebuild() {
   await fetchAuthorReadme()
 }
 
-fetchdata()
+prebuild()
