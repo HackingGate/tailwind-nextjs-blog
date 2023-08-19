@@ -7,9 +7,7 @@ import { Octokit } from '@octokit/rest'
 import { allAuthors } from '../.contentlayer/generated/Authors/_index.mjs'
 import fetch from "node-fetch";
 
-const octokit = new Octokit({
-  auth: process.env.GITHUB_TOKEN,
-})
+const octokit = new Octokit()
 
 const fetchAuthorReadme = async () => {
   const authors = allAuthors.filter((author) => author.github)
