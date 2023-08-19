@@ -3,6 +3,7 @@
   "version": "2.0.1",
   "private": true,
   "scripts": {
+    "fetchdata": "node ./scripts/fetchdata.mjs",
     "start": "next dev",
     "dev": "cross-env INIT_CWD=$PWD next dev",
     "build": "cross-env INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",
@@ -42,6 +43,7 @@
     "unist-util-visit": "^4.1.0"
   },
   "devDependencies": {
+    "@octokit/rest": "^20.0.1",
     "@svgr/webpack": "^8.0.1",
     "@types/mdx": "^2.0.5",
     "@types/react": "^18.2.14",
