@@ -52,7 +52,11 @@ avatar: ${author.avatar}
 email: ${author.email}
 github: ${author.github}
 ---
-${content}`
+${content}
+___
+**Data fetched from GitHub repository on:** ${new Date().toISOString()}  
+[See full README.md](${data.html_url})  
+`
 
       const filepath = path.join(process.cwd(), 'data', 'authors', `${author.slug}.mdx`)
       await fs.writeFile(filepath, mdx)
