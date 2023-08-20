@@ -151,7 +151,7 @@ const replaceImages = async (content) => {
         await fs.writeFile(localFilePath, response.data);
 
         // Replace in content
-        const newImageMarkdown = `![${altText}](/static/images/${filename})`;
+        const newImageMarkdown = `![${altText}](/static/images/${newFilename})`;
         contentToReturn = contentToReturn.replace(match[0], newImageMarkdown);
       } catch (error) {
         console.error(`Error downloading image ${externalUrl}:`, error.message);
