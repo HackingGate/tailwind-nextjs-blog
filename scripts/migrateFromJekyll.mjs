@@ -1,5 +1,6 @@
 import { promises as fs } from 'fs'
 import path from 'path'
+import axios from 'axios'
 
 // Fill the path to your Jekyll repository
 const jekyllRepositoryPath = ''
@@ -49,7 +50,9 @@ const migrateFromJekyll = async () => {
 
     const cleanData = data.replace(/---\n(.|\n)*---\n/, '')
 
-    const compatibleData = removeUnsupportedFeatures(cleanData)
+    const imageConvertedData = await replaceImages(cleanData)
+
+    const compatibleData = removeUnsupportedFeatures(imageConvertedData)
 
     const mdx = `---
 title: ${title}
@@ -110,6 +113,59 @@ const removeUnsupportedFeatures = (content) => {
   // Remove {:target="_blank"}
   const regex = /{:target="_blank"}/g
   contentToReturn = contentToReturn.replace(regex, '')
+
+  return contentToReturn
+}
+
+const replaceImages = async (content) => {
+  // If image is hosted somewhere else, download it and save it to the public/static folder
+  // Replace markdown image with the new path
+  // Example:
+  // ![cookies](https://i.imgur.com/LE0YpNo.png)
+  // ![cookies](/static/images/cookies.png)
+
+  // If image is hosted on the same server, just replace the path
+  // Example:
+  // ![image](/images/NextDNS-Default-Configuration-Privacy.png)
+  // ![image](/static/images/NextDNS-Default-Configuration-Privacy.png)
+
+  // Regular expression to match markdown image syntax
+  const imageRegex = /!\[([^\]]*)\]\((https?:\/\/[^\s]+)?(\/[^\s]+)?\)/g;
+  let contentToReturn = content;
+
+  let match;
+  while (match = imageRegex.exec(content)) {
+    const altText = match[1];
+    const externalUrl = match[2];
+    const localPath = match[3];
+
+    if (externalUrl) {
+      // Download and save the external image
+      try {
+        const response = await axios.get(externalUrl, { responseType: 'arraybuffer' });
+        const filename = path.basename(new URL(externalUrl).pathname);
+        // Create new filename of the form altText.extension
+        const newFilename = `${altText}.${filename.split('.').pop()}`;
+        const localFilePath = path.join('public', 'static', 'images', newFilename);
+
+        await fs.writeFile(localFilePath, response.data);
+
+        // Replace in content
+        const newImageMarkdown = `![${altText}](/static/images/${filename})`;
+        contentToReturn = contentToReturn.replace(match[0], newImageMarkdown);
+      } catch (error) {
+        console.error(`Error downloading image ${externalUrl}:`, error.message);
+      }
+    } else if (localPath) {
+      // Copy the image to the ${PWD}/static/ folder
+      await fs.cp(path.join(jekyllRepositoryPath, localPath), path.join('public', 'static', localPath));
+
+      // Modify the local path
+      const newLocalPath = localPath.replace('/images/', '/static/images/');
+      const newImageMarkdown = `![${altText}](${newLocalPath})`;
+      contentToReturn = contentToReturn.replace(match[0], newImageMarkdown);
+    }
+  }
 
   return contentToReturn
 }
