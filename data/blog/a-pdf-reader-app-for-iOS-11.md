@@ -2,6 +2,7 @@
 title: PDF Reader
 date: '2019-07-12'
 tags: []
+type: Blog
 ---
 A PDF Reader app for iOS 11
 ---

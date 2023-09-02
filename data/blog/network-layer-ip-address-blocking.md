@@ -2,6 +2,7 @@
 title: Network Layer IP Address Blocking
 date: '2021-08-15'
 tags: []
+type: Blog
 ---
 
 ## Introduction

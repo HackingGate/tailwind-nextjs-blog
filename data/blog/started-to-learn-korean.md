@@ -2,6 +2,7 @@
 title: Started to learn Korean
 date: '2018-01-24'
 tags: [language, Korean]
+type: Blog
 ---
 
 ## Korean alphabet

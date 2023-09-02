@@ -2,6 +2,7 @@
 title: GNU/Linux Tar Command Cheat Sheet
 date: '2019-07-10'
 tags: []
+type: Blog
 ---
 
 ## Archive Only (no compress)

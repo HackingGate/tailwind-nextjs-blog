@@ -3,6 +3,7 @@ name: Tong
 avatar: /static/images/avatar.png
 email: i@hackinggate.com
 github: https://github.com/HackingGate
+type: Authors
 ---
 ### Hi there 👋, I'm Tong :)
 - A developer, a learner, an explorer.
