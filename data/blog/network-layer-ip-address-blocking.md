@@ -3,6 +3,7 @@ title: Network Layer IP Address Blocking
 date: '2021-08-15'
 tags: []
 type: Blog
+license: CC BY-SA 4.0
 ---
 
 ## Introduction

@@ -3,6 +3,7 @@ title: Inspect the View Hierarchy of Any iOS Apps in 2019
 date: '2019-06-11'
 tags: []
 type: Blog
+license: CC BY-SA 4.0
 ---
 
 If you're an iOS Developer. You've probably heard of [Reveal](https://revealapp.com).

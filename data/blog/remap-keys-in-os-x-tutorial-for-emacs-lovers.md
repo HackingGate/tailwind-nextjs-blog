@@ -3,6 +3,7 @@ title: Remap keys in OS X tutorial for Emacs lovers
 date: '2015-08-31'
 tags: [osx]
 type: Blog
+license: CC BY-SA 4.0
 ---
 
 ## Remap Caps Lock to Control

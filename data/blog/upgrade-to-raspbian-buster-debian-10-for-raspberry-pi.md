@@ -3,6 +3,7 @@ title: Upgrade to Raspbian Buster (Debian 10) for Raspberry Pi
 date: '2019-06-24'
 tags: []
 type: Blog
+license: CC BY-SA 4.0
 ---
 
 [Official installation guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)

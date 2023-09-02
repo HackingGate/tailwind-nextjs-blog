@@ -3,6 +3,7 @@ title: Using GPG to Encrypt Messages
 date: '2019-07-09'
 tags: []
 type: Blog
+license: CC BY-SA 4.0
 ---
 
 You might have been using GPG for years.  

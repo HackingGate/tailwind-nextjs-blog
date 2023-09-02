@@ -3,6 +3,7 @@ title: GNU/Linux Tar Command Cheat Sheet
 date: '2019-07-10'
 tags: []
 type: Blog
+license: CC BY-SA 4.0
 ---
 
 ## Archive Only (no compress)

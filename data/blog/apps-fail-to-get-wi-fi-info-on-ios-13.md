@@ -3,6 +3,7 @@ title: Apps Fail to Get Wi-Fi Info on iOS 13
 date: '2019-06-12'
 tags: []
 type: Blog
+license: CC BY-SA 4.0
 ---
 
 I was using [Seven-Eleven Multicopy](https://itunes.apple.com/us/app/seven-eleven-multicopy/id982091927) this morning.
