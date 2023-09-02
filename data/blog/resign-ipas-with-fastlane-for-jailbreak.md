@@ -3,6 +3,7 @@ title: Resign IPAs with Fastlane for Jailbreak
 date: '2019-06-10'
 tags: []
 type: Blog
+license: CC BY-SA 4.0
 ---
 
 ## Jailbreak tools

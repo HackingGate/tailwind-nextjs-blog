@@ -3,6 +3,7 @@ title: Started to learn Korean
 date: '2018-01-24'
 tags: [language, Korean]
 type: Blog
+license: CC BY-SA 4.0
 ---
 
 ## Korean alphabet

@@ -3,6 +3,7 @@ title: Build OpenWrt 19.07 for tl-wr703n
 date: '2020-01-25'
 tags: []
 type: Blog
+license: CC BY-SA 4.0
 ---
 
 Since 18.06, OpenWrt no longer provide image for tl-wr703n because of default 4m flash is not enough.  

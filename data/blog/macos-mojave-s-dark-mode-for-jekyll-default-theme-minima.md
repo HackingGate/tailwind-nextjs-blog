@@ -3,6 +3,7 @@ title: macOS Mojave's Dark Mode for Jekyll default theme minima
 date: '2019-03-31'
 tags: []
 type: Blog
+license: CC BY-SA 4.0
 ---
 
 We now supports macOS Mojave’s Dark Mode.
