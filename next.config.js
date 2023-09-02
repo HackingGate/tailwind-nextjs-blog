@@ -87,6 +87,11 @@ module.exports = () => {
     async redirects() {
       return [
         {
+          source: '/PDFReader',
+          destination: '/blog/a-pdf-reader-app-for-iOS-11',
+          permanent: true,
+        },
+        {
           source: '/2015/08/31/remap-keys-in-os-x-tutorial-for-emacs-lovers.html',
           destination: '/blog/remap-keys-in-os-x-tutorial-for-emacs-lovers',
           permanent: true,
