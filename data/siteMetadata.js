@@ -7,6 +7,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-blog.hackinggate.com',
+  siteRepo: 'https://github.com/Hackinggate/tailwind-nextjs-blog',
   email: 'i@hackinggate.com',
   github: 'https://github.com/HackingGate',
   locale: 'en-US',
