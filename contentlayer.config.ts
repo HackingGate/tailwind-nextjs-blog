@@ -90,6 +90,7 @@ export const Blog = defineDocumentType(() => ({
     layout: { type: 'string' },
     bibliography: { type: 'string' },
     canonicalUrl: { type: 'string' },
+    license: { type: 'string' },
   },
   computedFields: {
     ...computedFields,
@@ -126,6 +127,7 @@ export const Other = defineDocumentType(() => ({
     layout: { type: 'string' },
     bibliography: { type: 'string' },
     canonicalUrl: { type: 'string' },
+    license: { type: 'string' },
   },
   computedFields: {
     ...computedFields,

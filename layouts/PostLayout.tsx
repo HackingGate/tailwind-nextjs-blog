@@ -10,7 +10,18 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
-const editUrl = (path) => `${siteMetadata.siteRepo}/blob/main/data/${path}`
+const editUrl = (path: string) => `${siteMetadata.siteRepo}/blob/main/data/${path}`
+
+const getLicenseUrl = (license: string) => {
+  if (license.startsWith('CC ')) {
+    return `https://creativecommons.org/licenses/${license
+      .replace('CC ', '')
+      .toLowerCase()
+      .replace(' ', '/')}/`
+  } else {
+    return undefined
+  }
+}
 
 const postDateTemplate: Intl.DateTimeFormatOptions = {
   weekday: 'long',
@@ -28,8 +39,10 @@ interface LayoutProps {
 }
 
 export default function PostLayout({ content, authorDetails, next, prev, children }: LayoutProps) {
-  const { filePath, path, slug, date, title, tags } = content
+  const { filePath, path, slug, date, title, tags, license } = content
   const basePath = path.split('/')[0]
+
+  const licenseUrl = license && getLicenseUrl(license)
 
   return (
     <SectionContainer>
@@ -93,6 +106,15 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
               <div className="prose max-w-none pb-8 pt-10 dark:prose-invert">{children}</div>
               <div className="pb-6 pt-6 text-sm text-gray-700 dark:text-gray-300">
                 <Link href={editUrl(filePath)}>View on GitHub</Link>
+                {license && (
+                  <>
+                    {` • `}
+                    This article is licensed under a <Link href={licenseUrl || ''}>
+                      {license}
+                    </Link>{' '}
+                    license.
+                  </>
+                )}
               </div>
               {siteMetadata.comments && (
                 <div
