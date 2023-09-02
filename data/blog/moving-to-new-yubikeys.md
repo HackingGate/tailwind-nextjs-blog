@@ -2,6 +2,7 @@
 title: Moving to new Yubikeys
 date: '2021-12-05'
 tags: []
+type: Blog
 ---
 
 My old Yubikey 5Ci was cracked. So I ordered a new Yubikey 5C NFC. Yubico sent me a wrong key Yubikey 5 NFC and the correct one later.

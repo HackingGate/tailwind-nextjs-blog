@@ -2,6 +2,7 @@
 title: Xcode project build number use svn revision
 date: '2015-09-03'
 tags: [Xcode, svn]
+type: Blog
 ---
 
 I wrote a script auto read svn revision number and replace Xcode project build number.

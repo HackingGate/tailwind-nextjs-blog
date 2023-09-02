@@ -2,6 +2,7 @@
 title: Started to learn Russian
 date: '2021-03-28'
 tags: [language, Russian]
+type: Blog
 ---
 
 ## Russian alphabet (Алфавит)
