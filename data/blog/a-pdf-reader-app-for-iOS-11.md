@@ -9,7 +9,7 @@ A PDF Reader app for iOS 11
 
 ![AppIcon](/static/images/AppIcon.png)
 
-[![AppStoreBadge](/images/App_Store_Badge_Black.svg)](https://itunes.apple.com/us/app/pdf-reader-sync-documents/id1330895464?ls=1&mt=8)
+[![App_Store_Badge_Black.svg](/static/images/App_Store_Badge_Black.svg)](https://itunes.apple.com/us/app/pdf-reader-sync-documents/id1330895464?ls=1&mt=8)
 
 Highlighted features:
 - **Right-to-Left mode for Arabic and vertical CJK.** *(Requires PDF assembly permission in single page mode)*
