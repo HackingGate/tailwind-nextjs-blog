@@ -2,6 +2,7 @@
 title: Using Aircrack-ng with RTL8814AU
 date: '2019-07-28'
 tags: []
+type: Blog
 ---
 
 For Kali Linux users who want to hack 2.4/5GHz Wi-Fi.

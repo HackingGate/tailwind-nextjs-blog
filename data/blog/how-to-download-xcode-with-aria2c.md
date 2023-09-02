@@ -2,6 +2,7 @@
 title: How to download Xcode with aria2c
 date: '2015-10-01'
 tags: [Xcode]
+type: Blog
 ---
 
 ## 2019 Update

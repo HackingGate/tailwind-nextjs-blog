@@ -2,6 +2,7 @@
 title: Privacy Policy
 date: '2019-04-01'
 tags: []
+type: Blog
 ---
 
 This Privacy Policy describes the policies of HackingGate ("us", "we" or "our") regarding the information we collect or receive about our customers. It is applicable to our website, applications and other products and services collectively as "Services".

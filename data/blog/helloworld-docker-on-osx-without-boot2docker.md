@@ -2,6 +2,7 @@
 title: Helloworld docker on OS X without boot2docker
 date: '2015-09-16'
 tags: [osx, linux, docker]
+type: Blog
 ---
 
 ## 2019 Update
