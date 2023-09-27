@@ -23,9 +23,9 @@ Here is the list of personal and non-personal data that we process and/or collec
 
 **Information when use our Websites, Web Applications, and APIs (non-personal data):** we use Cloudflare to serve our websites, web applications, and APIs. When you use our web services or APIs, you are one of the [End Users defined by Cloudflare](https://www.cloudflare.com/privacypolicy/). Click that link to see what information Cloudflare collect. **Data Processor:** Cloudflare.
 
-**Support Mails (personal data):** we provide support by email. Users can contact us through our support email addresses to request support about our Services. **Data Processors:** Mailgun, SendGrid.
+**Support Mails (personal data):** we provide support by email. Users can contact us through our support email addresses to request support about our Services. **Data Processors:** Apple.
 
-**Email Address (personal data):** email addresses, as part of Contractual Information and Support Mails, are detailed above. **Data Processors:** Apple, Mailgun, SendGrid.
+**Email Address (personal data):** email addresses, as part of Contractual Information and Support Mails, are detailed above. **Data Processors:** Apple.
 
 **Comments or Reviews (personal data):** for users who comment on our website or write reviews on App Store. Comment or review features are provided by Disqus or Apple. Comments and reviews are public and visiable to other users. **Data Processors:** Disqus, Apple.
 
@@ -45,16 +45,6 @@ Privacy Policy: [https://www.cloudflare.com/privacypolicy/](https://www.cloudfla
 
 Website: [https://disqus.com](https://disqus.com)  
 Privacy Policy: [https://help.disqus.com/terms-and-policies/disqus-privacy-policy](https://help.disqus.com/terms-and-policies/disqus-privacy-policy)
-
-#### Mailgun
-
-Website: [https://www.mailgun.com](https://www.mailgun.com)  
-Privacy Policy: [https://www.mailgun.com/privacy-policy](https://www.mailgun.com/privacy-policy)
-
-#### SendGrid
-
-Website: [https://sendgrid.com](https://sendgrid.com)  
-Privacy Policy: [https://sendgrid.com/policies/privacy/](https://sendgrid.com/policies/privacy/)
 
 ### Cookie Policy
 
