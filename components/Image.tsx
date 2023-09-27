@@ -1,9 +1,5 @@
-import { ImageProps as NextImageProps } from 'next/image'
+import NextImage, { ImageProps } from 'next/image'
 
-interface ImageProps extends Omit<NextImageProps, 'src'> {
-  src: string
-}
-
-const Image = ({ src, alt, ...rest }: ImageProps) => <img src={src} alt={alt} {...rest} />
+const Image = ({ ...rest }: ImageProps) => <NextImage {...rest} />
 
 export default Image
