@@ -28,7 +28,7 @@ module.exports = () => {
       dirs: ['app', 'components', 'layouts', 'scripts'],
     },
     images: {
-      domains: ['picsum.photos'],
+      unoptimized: true,
     },
     output: 'export',
     webpack: (config, options) => {
