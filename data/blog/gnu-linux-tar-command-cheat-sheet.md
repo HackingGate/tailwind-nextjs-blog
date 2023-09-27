@@ -1,7 +1,7 @@
 ---
 title: GNU/Linux Tar Command Cheat Sheet
 date: '2019-07-10'
-tags: []
+tags: [Tar, GNU, Linux, Archive, Compress, gzip, bzip2, xz]
 type: Blog
 license: CC BY-SA 4.0
 ---

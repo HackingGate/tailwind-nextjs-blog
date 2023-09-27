@@ -1,7 +1,7 @@
 ---
 title: Moving to new Yubikeys
 date: '2021-12-05'
-tags: []
+tags: [Yuibikey, OpenGPG, OTP]
 type: Blog
 license: CC BY-SA 4.0
 ---

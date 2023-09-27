@@ -1,7 +1,7 @@
 ---
 title: How to download Xcode with aria2c
 date: '2015-10-01'
-tags: [Xcode]
+tags: [Xcode, aria2, Mac, Apple, Cookie]
 type: Blog
 license: CC BY-SA 4.0
 ---

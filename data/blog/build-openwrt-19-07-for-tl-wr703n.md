@@ -1,7 +1,7 @@
 ---
 title: Build OpenWrt 19.07 for tl-wr703n
 date: '2020-01-25'
-tags: []
+tags: [OpenWrt, tl-wr703n]
 type: Blog
 license: CC BY-SA 4.0
 ---

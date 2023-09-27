@@ -1,7 +1,7 @@
 ---
 title: Using Aircrack-ng with RTL8814AU
 date: '2019-07-28'
-tags: []
+tags: [Airmon-ng, Aircrack-ng, RTL8814AU, RTL8812AU, Wi-Fi, Kali Linux, Raspberry Pi, ARM]
 type: Blog
 license: CC BY-SA 4.0
 ---

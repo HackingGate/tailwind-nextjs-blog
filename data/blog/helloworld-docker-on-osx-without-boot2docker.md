@@ -1,7 +1,7 @@
 ---
 title: Helloworld docker on OS X without boot2docker
 date: '2015-09-16'
-tags: [osx, linux, docker]
+tags: [osx, linux, docker, virtualbox, boot2docker, docker-machine]
 type: Blog
 license: CC BY-SA 4.0
 ---

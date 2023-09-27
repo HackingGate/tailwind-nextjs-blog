@@ -1,7 +1,7 @@
 ---
 title: Apps Fail to Get Wi-Fi Info on iOS 13
 date: '2019-06-12'
-tags: []
+tags: [iOS 13, Wi-Fi, Privacy, Location]
 type: Blog
 license: CC BY-SA 4.0
 ---

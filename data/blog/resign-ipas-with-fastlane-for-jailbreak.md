@@ -1,7 +1,7 @@
 ---
 title: Resign IPAs with Fastlane for Jailbreak
 date: '2019-06-10'
-tags: []
+tags: [IPA, Jailbreak, iOS, fastlane, Xcode, Apple, Developer, Certificate, Provisioning Profile, App ID, Apple Configurator 2, Undecimus, Electra]
 type: Blog
 license: CC BY-SA 4.0
 ---

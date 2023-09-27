@@ -1,7 +1,7 @@
 ---
 title: Network Layer IP Address Blocking
 date: '2021-08-15'
-tags: []
+tags: [Network, IP, DNS, OpenWrt, Pi-Hole, WireGuard]
 type: Blog
 license: CC BY-SA 4.0
 ---

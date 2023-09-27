@@ -1,7 +1,7 @@
 ---
 title: Deploy Jekyll blog on GitLab Pages with Cloudflare Origin CA
 date: '2019-06-09'
-tags: []
+tags: [Jekyll, GitLab, Cloudflare]
 type: Blog
 license: CC BY-SA 4.0
 ---

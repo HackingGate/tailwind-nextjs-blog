@@ -1,7 +1,7 @@
 ---
 title: PDF Reader
 date: '2019-07-12'
-tags: []
+tags: [PDF, reader, project, iOS, localization, RTL, CJK]
 type: Blog
 license: CC BY-SA 4.0
 ---

@@ -1,7 +1,7 @@
 ---
 title: Upgrade to Raspbian Buster (Debian 10) for Raspberry Pi
 date: '2019-06-24'
-tags: []
+tags: [Raspberry Pi, Raspbian, Debian, Buster, Linux, macOS, SSH, DDNS, Cloudflare]
 type: Blog
 license: CC BY-SA 4.0
 ---

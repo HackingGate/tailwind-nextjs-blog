@@ -1,7 +1,7 @@
 ---
 title: Xcode project build number use svn revision
 date: '2015-09-03'
-tags: [Xcode, svn]
+tags: [Xcode, SVN, build number, script]
 type: Blog
 license: CC BY-SA 4.0
 ---

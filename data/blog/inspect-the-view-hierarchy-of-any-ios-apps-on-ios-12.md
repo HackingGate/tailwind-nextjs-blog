@@ -1,7 +1,7 @@
 ---
 title: Inspect the View Hierarchy of Any iOS Apps in 2019
 date: '2019-06-11'
-tags: []
+tags: [iOS, Reveal, Jailbreak, iOS 12]
 type: Blog
 license: CC BY-SA 4.0
 ---
