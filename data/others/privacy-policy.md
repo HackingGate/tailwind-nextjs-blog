@@ -50,7 +50,7 @@ Privacy Policy: [https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md](h
 
 #### GitHub
 
-Website: [https://github.com](https://github.com)
+Website: [https://github.com](https://github.com)  
 Privacy Statement: [https://docs.github.com/en/github/site-policy/github-privacy-statement](https://docs.github.com/en/github/site-policy/github-privacy-statement)
 
 ### Cookie Policy
@@ -69,7 +69,7 @@ Functional cookies are necessary to help our Services to work as intended.
 
 Third-party cookies originate from domains distinct from ours and serve various functions. Below are the specific instances of third-party cookies utilized in our Services.
 
-- Our Services use a third-party comments service via the giscus organization as mentioned above which, if you sign in using GitHub, stores a server-encrypted token in your browser's local storage to facilitate authenticated requests to the GitHub API, allowing you to remain signed in; for more details, please refer to the [giscus Privacy Policy](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md) and [GitHub's Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).
+- Our Services use a third-party comments service via the giscus organization (as mentioned above) which, if you sign in using GitHub, stores a server-encrypted token in your browser's local storage to facilitate authenticated requests to the GitHub API, allowing you to remain signed in; for more details, please refer to the [giscus Privacy Policy](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md) and [GitHub's Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).
 
 ### Security
 
