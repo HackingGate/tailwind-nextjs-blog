@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-date: '2019-04-01'
+date: '2023-09-28'
 tags: []
 type: Other
 ---
@@ -23,11 +23,13 @@ Here is the list of personal and non-personal data that we process and/or collec
 
 **Information when use our Websites, Web Applications, and APIs (non-personal data):** we use Cloudflare to serve our websites, web applications, and APIs. When you use our web services or APIs, you are one of the [End Users defined by Cloudflare](https://www.cloudflare.com/privacypolicy/). Click that link to see what information Cloudflare collect. **Data Processor:** Cloudflare.
 
-**Support Mails (personal data):** we provide support by email. Users can contact us through our support email addresses to request support about our Services. **Data Processors:** Mailgun, SendGrid.
+**Support Mails (personal data):** we provide support by email. Users can contact us through our support email addresses to request support about our Services. **Data Processors:** Apple.
 
-**Email Address (personal data):** email addresses, as part of Contractual Information and Support Mails, are detailed above. **Data Processors:** Apple, Mailgun, SendGrid.
+**Email Address (personal data):** email addresses, as part of Contractual Information and Support Mails, are detailed above. **Data Processors:** Apple.
 
-**Comments or Reviews (personal data):** for users who comment on our website or write reviews on App Store. Comment or review features are provided by Disqus or Apple. Comments and reviews are public and visiable to other users. **Data Processors:** Disqus, Apple.
+**Reviews (personal data):** for users who write reviews on App Store. Review feature is provided by Apple. Reviews are public and visiable to other users. **Data Processors:** Apple.
+
+**Comments (personal data):** for users who comment on our website. Comment feature is provided by giscus. Comments are public and visiable to other users. **Data Processors:** giscus organization, GitHub.
 
 ### Data Processors
 
@@ -41,30 +43,33 @@ Privacy Policy: [https://www.apple.com/legal/privacy/en-ww/](https://www.apple.c
 Website: [https://www.cloudflare.com](https://www.cloudflare.com)  
 Privacy Policy: [https://www.cloudflare.com/privacypolicy/](https://www.cloudflare.com/privacypolicy/)
 
-#### Disqus
+#### giscus organization
 
-Website: [https://disqus.com](https://disqus.com)  
-Privacy Policy: [https://help.disqus.com/terms-and-policies/disqus-privacy-policy](https://help.disqus.com/terms-and-policies/disqus-privacy-policy)
+Website: [https://github.com/giscus](https://github.com/giscus)  
+Privacy Policy: [https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md)
 
-#### Mailgun
+#### GitHub
 
-Website: [https://www.mailgun.com](https://www.mailgun.com)  
-Privacy Policy: [https://www.mailgun.com/privacy-policy](https://www.mailgun.com/privacy-policy)
-
-#### SendGrid
-
-Website: [https://sendgrid.com](https://sendgrid.com)  
-Privacy Policy: [https://sendgrid.com/policies/privacy/](https://sendgrid.com/policies/privacy/)
+Website: [https://github.com](https://github.com)  
+Privacy Statement: [https://docs.github.com/en/github/site-policy/github-privacy-statement](https://docs.github.com/en/github/site-policy/github-privacy-statement)
 
 ### Cookie Policy
 
-#### Functional Cookies
+#### Strictly Necessary cookies
 
-Functional cookies are necessary to help our Services to work as intended. Our service provider Cloudflare (as mentioned above) may set "_cfduid" cookies and bot detection cookies (such as "_cf_bm" and Google’s reCaptcha) to identify malicious visitors to our Services, to reduce the chance of blocking legitimate users. These are functional cookies as explained by Cloudflare. Learn more from [Cloudflare Cookie Policy](https://www.cloudflare.com/cookie-policy/). We use Cloudflare to help us operate, maintain, and improve our Services.
+Strictly Necessary cookies are essential to providing our Services to you and cannot be turned off.
+- Our service provider Cloudflare (as mentioned above) may place bot detection cookies (such as "_cf_bm"), cookies for CAPTCHA products (like cf_chl_prog, cf_clearance, cf_chl_cc_XXX, cf_chl_seq_XXX, cf_chl_rc_i and cf_chl_rc_ni), and a load balancing cookie (_cflb) on the computers of visitors to our Services. Cloudflare do this in order to identify malicious visitors to our Services, to assist with web-traffic filtration, and to reduce the chance of blocking legitimate users. You can learn more about these cookies [here](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/). You cannot turn off Strictly Necessary cookies.
 
-#### Third-party Cookies
+#### Functional cookies
 
-We use comment hosting service Disqus (as mentioned above) to let users view and write comments on our posts. Learn more from [Disqus: Use of cookies](https://help.disqus.com/user-profile/use-of-cookies). You can opt-out by following the [instructions by Disqus](https://disqus.com/data-sharing-settings/) or by blocking third-party cookies via your broswer settings or blocker.
+Functional cookies are necessary to help our Services to work as intended.
+- Our site uses a functional cookie to record your theme preference (system, light or dark) to enhance your browsing experience.
+
+#### Third-party cookies
+
+Third-party cookies are from domains distinct from ours and serve various functions.
+
+- Our Services use a third-party comments service via the giscus organization (as mentioned above) which, if you sign in using GitHub, stores a server-encrypted token in your browser's local storage to facilitate authenticated requests to the GitHub API, allowing you to remain signed in; for more details, please refer to the [giscus Privacy Policy](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md) and [GitHub's Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).
 
 ### Security
 
