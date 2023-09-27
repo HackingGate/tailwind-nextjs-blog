@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-date: '2019-04-01'
+date: '2023-09-28'
 tags: []
 type: Other
 ---
