@@ -27,7 +27,9 @@ Here is the list of personal and non-personal data that we process and/or collec
 
 **Email Address (personal data):** email addresses, as part of Contractual Information and Support Mails, are detailed above. **Data Processors:** Apple.
 
-**Comments or Reviews (personal data):** for users who comment on our website or write reviews on App Store. Comment or review features are provided by Disqus or Apple. Comments and reviews are public and visiable to other users. **Data Processors:** Disqus, Apple.
+**Reviews (personal data):** for users who write reviews on App Store. Review feature is provided by Apple. Reviews are public and visiable to other users. **Data Processors:** Apple.
+
+**Comments (personal data):** for users who comment on our website. Comment feature is provided by giscus. Comments are public and visiable to other users. **Data Processors:** giscus organization, GitHub.
 
 ### Data Processors
 
@@ -41,10 +43,15 @@ Privacy Policy: [https://www.apple.com/legal/privacy/en-ww/](https://www.apple.c
 Website: [https://www.cloudflare.com](https://www.cloudflare.com)  
 Privacy Policy: [https://www.cloudflare.com/privacypolicy/](https://www.cloudflare.com/privacypolicy/)
 
-#### Disqus
+#### giscus organization
 
-Website: [https://disqus.com](https://disqus.com)  
-Privacy Policy: [https://help.disqus.com/terms-and-policies/disqus-privacy-policy](https://help.disqus.com/terms-and-policies/disqus-privacy-policy)
+Website: [https://github.com/giscus](https://github.com/giscus)  
+Privacy Policy: [https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md)
+
+#### GitHub
+
+Website: [https://github.com](https://github.com)
+Privacy Statement: [https://docs.github.com/en/github/site-policy/github-privacy-statement](https://docs.github.com/en/github/site-policy/github-privacy-statement)
 
 ### Cookie Policy
 
@@ -60,7 +67,9 @@ Functional cookies are necessary to help our Services to work as intended.
 
 #### Third-party cookies
 
-We use comment hosting service Disqus (as mentioned above) to let users view and write comments on our posts. Learn more from [Disqus: Use of cookies](https://help.disqus.com/user-profile/use-of-cookies). You can opt-out by following the [instructions by Disqus](https://disqus.com/data-sharing-settings/) or by blocking third-party cookies via your broswer settings or blocker.
+Third-party cookies originate from domains distinct from ours and serve various functions. Below are the specific instances of third-party cookies utilized in our Services.
+
+- Our Services use a third-party comments service via the giscus organization as mentioned above which, if you sign in using GitHub, stores a server-encrypted token in your browser's local storage to facilitate authenticated requests to the GitHub API, allowing you to remain signed in; for more details, please refer to the [giscus Privacy Policy](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md) and [GitHub's Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).
 
 ### Security
 
