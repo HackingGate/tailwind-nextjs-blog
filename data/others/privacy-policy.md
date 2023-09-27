@@ -50,7 +50,8 @@ Privacy Policy: [https://help.disqus.com/terms-and-policies/disqus-privacy-polic
 
 #### Functional Cookies
 
-Functional cookies are necessary to help our Services to work as intended. Our service provider Cloudflare (as mentioned above) may set "_cfduid" cookies and bot detection cookies (such as "_cf_bm" and Google’s reCaptcha) to identify malicious visitors to our Services, to reduce the chance of blocking legitimate users. These are functional cookies as explained by Cloudflare. Learn more from [Cloudflare Cookie Policy](https://www.cloudflare.com/cookie-policy/). We use Cloudflare to help us operate, maintain, and improve our Services.
+Strictly Necessary cookies are essential to providing our Services to you and cannot be turned off.
+- Our service provider Cloudflare (as mentioned above) may place bot detection cookies (such as "_cf_bm"), cookies for CAPTCHA products (like cf_chl_prog, cf_clearance, cf_chl_cc_XXX, cf_chl_seq_XXX, cf_chl_rc_i and cf_chl_rc_ni), and a load balancing cookie (_cflb) on the computers of visitors to our Services. Cloudflare do this in order to identify malicious visitors to our Services, to assist with web-traffic filtration, and to reduce the chance of blocking legitimate users. You can learn more about these cookies [here](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/). You cannot turn off Strictly Necessary cookies.
 
 #### Third-party Cookies
 
