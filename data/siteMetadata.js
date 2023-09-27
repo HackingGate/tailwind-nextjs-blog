@@ -65,6 +65,11 @@ const siteMetadata = {
       // This corresponds to the `data-lang="en"` in giscus's configurations
       lang: 'en',
     },
+    disqusConfig: {
+      // Visit the link below, and follow the steps in the 'configuration' section
+      // https://disqus.com/admin/create/
+      shortname: process.env.NEXT_PUBLIC_DISQUS_SHORTNAME,
+    },
   },
   search: {
     provider: 'kbar', // kbar or algolia
