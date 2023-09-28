@@ -31,6 +31,8 @@ Here is the list of personal and non-personal data that we process and/or collec
 
 **Comments (personal data):** for users who comment on our website. Comment feature is provided by giscus. Comments are public and visiable to other users. **Data Processors:** giscus organization, GitHub.
 
+**Analytics (non-personal data):** we use a self-hosting umami instance to collect analytics data. **Data Processor:** umami, Vercel, Neon.
+
 ### Data Processors
 
 #### Apple
@@ -53,6 +55,21 @@ Privacy Policy: [https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md](h
 Website: [https://github.com](https://github.com)  
 Privacy Statement: [https://docs.github.com/en/github/site-policy/github-privacy-statement](https://docs.github.com/en/github/site-policy/github-privacy-statement)
 
+#### umami
+
+Website: [https://umami.is](https://umami.is)  
+Privacy Policy: [https://umami.is/privacy](https://umami.is/privacy)
+
+#### Vercel
+
+Website: [https://vercel.com](https://vercel.com)
+Privacy Policy: [https://vercel.com/legal/privacy-policy](https://vercel.com/legal/privacy-policy)
+
+#### Neon
+
+Website: [https://neon.tech/](https://neon.tech/)  
+Privacy Policy: [https://neon.tech/privacy-policy](https://neon.tech/privacy-policy)
+
 ### Cookie Policy
 
 #### Strictly Necessary cookies
@@ -63,7 +80,14 @@ Strictly Necessary cookies are essential to providing our Services to you and ca
 #### Functional cookies
 
 Functional cookies are necessary to help our Services to work as intended.
+
 - Our site uses a functional cookie to record your theme preference (system, light or dark) to enhance your browsing experience.
+
+#### Analytics cookies
+
+Analytics cookies help us understand how our Services are being used.
+
+- Our Services use a analytics service via a self-hosting umami instance (as mentioned above) which, if you have JavaScript enabled, collects information about your device and browser for analytics purposes; to opt-out of this service, use a script blocker to block [https://umami.hackinggate.com/script.js](https://umami.hackinggate.com/script.js), or a domain blocker to block [https://umami.hackinggate.com](https://umami.hackinggate.com).
 
 #### Third-party cookies
 
