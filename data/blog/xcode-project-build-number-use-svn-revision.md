@@ -20,9 +20,22 @@ Copy and paste this script
 
 ![script](/static/images/script.png)
 
-I have posted this script to GitHub Gist
+The script is
 
-<script src="https://gist.github.com/HackingGate/945c53824f6b8f441868.js"></script>
+```updateBuildNumber.sh
+REV_GIT=`git svn info |grep Revision: |cut -c11-`
+REV_SVN=`svn info |grep Revision: |cut -c11-`
+if [ -z $REV_GIT ] ;then
+REV=$REV_SVN
+else
+REV=$REV_GIT
+fi
+echo "REV is $REV"
+
+BASEVERNUM=`/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" "${INFOPLIST_FILE}"`
+/usr/libexec/PlistBuddy -c "Set :CFBundleVersion $REV" "${INFOPLIST_FILE}"
+```
+
+I have posted this script to [GitHub Gist](https://gist.github.com/HackingGate/945c53824f6b8f441868)
 
 Everytime when you build, project build number will auto update.
-
