@@ -6,7 +6,7 @@ const siteMetadata = {
   description: 'To dream and to build, To fail and to succeed.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-blog.hackinggate.com',
+  siteUrl: 'https://hackinggate.com',
   siteRepo: 'https://github.com/Hackinggate/tailwind-nextjs-blog',
   socialBanner: '',
   email: 'i@hackinggate.com',
