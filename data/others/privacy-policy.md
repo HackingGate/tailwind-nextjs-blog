@@ -23,15 +23,15 @@ Here is the list of personal and non-personal data that we process and/or collec
 
 **Information when use our Websites, Web Applications, and APIs (non-personal data):** we use Cloudflare to serve our websites, web applications, and APIs. When you use our web services or APIs, you are one of the [End Users defined by Cloudflare](https://www.cloudflare.com/privacypolicy/). Click that link to see what information Cloudflare collect. **Data Processor:** Cloudflare.
 
-**Support Mails (personal data):** we provide support by email. Users can contact us through our support email addresses to request support about our Services. **Data Processors:** Apple.
+**Support Mails (personal data):** we provide support by email. Users can contact us through our support email addresses to request support about our Services. **Data Processor:** Apple.
 
-**Email Address (personal data):** email addresses, as part of Contractual Information and Support Mails, are detailed above. **Data Processors:** Apple.
+**Email Address (personal data):** email addresses, as part of Contractual Information and Support Mails, are detailed above. **Data Processor:** Apple.
 
-**Reviews (personal data):** for users who write reviews on App Store. Review feature is provided by Apple. Reviews are public and visiable to other users. **Data Processors:** Apple.
+**Reviews (personal data):** for users who write reviews on App Store. Review feature is provided by Apple. Reviews are public and visiable to other users. **Data Processor:** Apple.
 
 **Comments (personal data):** for users who comment on our website. Comment feature is provided by giscus. Comments are public and visiable to other users. **Data Processors:** giscus organization, GitHub.
 
-**Analytics (non-personal data):** we use a self-hosting umami instance to collect analytics data. **Data Processor:** umami, Vercel, Neon.
+**Analytics (non-personal data):** we use a self-hosting umami instance to collect analytics data. **Data Processors:** umami, Vercel, Neon.
 
 ### Data Processors
 
