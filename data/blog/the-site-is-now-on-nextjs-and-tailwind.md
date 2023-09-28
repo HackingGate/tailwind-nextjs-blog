@@ -9,7 +9,7 @@ I have migrated the site from Jekyll to Next.js and Tailwind. The new site is ho
 
 ## Breaking Changes
 
-- The old site is hosted on GitLab Pages alongside with Cloudflare CDN. The new site is hosted on Cloudflare Pages.
+- The old site is hosted on GitLab Pages with Cloudflare CDN in front of it. The new site is hosted on Cloudflare Pages.
 - The old site is built with Jekyll. The new site is built with Next.js and Tailwind.
 - The old site still can be found at https://hackinggate.gitlab.io. The new site is hosted at https://hackinggate.com.
 - The old site's source code is hosted on GitLab. The new site's source code is hosted on GitHub.
@@ -17,8 +17,8 @@ I have migrated the site from Jekyll to Next.js and Tailwind. The new site is ho
 - The old site doesn't have a Creative Commons license. The new site has separate license statements for each post and most of them are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 - The old site doesn't track analytics. The new site uses a self-hosting [umami](https://umami.is/) instance to collect analytics data.
 - The old site uses Disqus for comments. The new site uses [giscus](https://giscus.app/) for comments. Old comments are not migrated but can be found at https://hackinggate.gitlab.io.
-- The old site uses YYYY/MM/DD for url prefix. The new site doesn't use dates in url prefix as I may update posts in the future and dates in url is not necessary.
-- The new site uses redirects to keep urls from old site working and It's configured at https://github.com/HackingGate/tailwind-nextjs-blog/blob/main/_redirects supported by Cloudflare Pages. 
+- The old site uses the YYYY/MM/DD date format for URL prefixes. The new site omits dates from the URL prefix since posts may be updated in the future, rendering the inclusion of dates unnecessary.
+- The new site uses redirects to keep urls from old site working, and It's configured at https://github.com/HackingGate/tailwind-nextjs-blog/blob/main/_redirects, supported by Cloudflare Pages. 
 - The privacy policy is updated. You can find it at https://hackinggate.com/privacy.
 
 ## Why
@@ -31,7 +31,7 @@ I have migrated the site from Jekyll to Next.js and Tailwind. The new site is ho
 - I use Umami to collect analytics data as Umami does not collect any personal information, does not use cookies, does not track users across websites, and is GDPR compliant.
 - I use a self-hosting Umami instance over a Umami instance hosted by Umami as I can have full control over the data.
 - I use giscus over Disqus as giscus is eaiser to set up and manage, and is open source.
-- I use redirects of Cloudflare Pages to keep urls from old site working as I don't want to break links.
+- I use redirects of Cloudflare Pages to keep urls from old site working as I don't want to break links as well as for search engine indexing purpose.
 - I value privacy and transparency as I'm a privacy advocate.
 
 ## How
