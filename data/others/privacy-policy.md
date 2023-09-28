@@ -55,6 +55,11 @@ Privacy Policy: [https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md](h
 Website: [https://github.com](https://github.com)  
 Privacy Statement: [https://docs.github.com/en/github/site-policy/github-privacy-statement](https://docs.github.com/en/github/site-policy/github-privacy-statement)
 
+#### Neon
+
+Website: [https://neon.tech/](https://neon.tech/)  
+Privacy Policy: [https://neon.tech/privacy-policy](https://neon.tech/privacy-policy)
+
 #### umami
 
 Website: [https://umami.is](https://umami.is)  
@@ -62,13 +67,8 @@ Privacy Policy: [https://umami.is/privacy](https://umami.is/privacy)
 
 #### Vercel
 
-Website: [https://vercel.com](https://vercel.com)
+Website: [https://vercel.com](https://vercel.com)  
 Privacy Policy: [https://vercel.com/legal/privacy-policy](https://vercel.com/legal/privacy-policy)
-
-#### Neon
-
-Website: [https://neon.tech/](https://neon.tech/)  
-Privacy Policy: [https://neon.tech/privacy-policy](https://neon.tech/privacy-policy)
 
 ### Cookie Policy
 
