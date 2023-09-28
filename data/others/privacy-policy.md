@@ -31,7 +31,7 @@ Here is the list of personal and non-personal data that we process and/or collec
 
 **Comments (personal data):** for users who comment on our website. Comment feature is provided by giscus. Comments are public and visiable to other users. **Data Processors:** giscus organization, GitHub.
 
-**Analytics (non-personal data):** we use a self-hosting umami instance to collect analytics data. **Data Processors:** umami, Vercel, Neon.
+**Analytics (non-personal data):** we use a self-hosting umami instance to collect analytics data. If you have JavaScript enabled, umami collects information about your device and browser for analytics purposes. To opt-out of this service, use a script blocker to block [https://umami.hackinggate.com/script.js](https://umami.hackinggate.com/script.js), or a domain blocker to block [https://umami.hackinggate.com](https://umami.hackinggate.com). **Data Processors:** umami, Vercel, Neon.
 
 ### Data Processors
 
@@ -82,12 +82,6 @@ Strictly Necessary cookies are essential to providing our Services to you and ca
 Functional cookies are necessary to help our Services to work as intended.
 
 - Our site uses a functional cookie to record your theme preference (system, light or dark) to enhance your browsing experience.
-
-#### Analytics cookies
-
-Analytics cookies help us understand how our Services are being used.
-
-- Our Services use a analytics service via a self-hosting umami instance (as mentioned above) which, if you have JavaScript enabled, collects information about your device and browser for analytics purposes; to opt-out of this service, use a script blocker to block [https://umami.hackinggate.com/script.js](https://umami.hackinggate.com/script.js), or a domain blocker to block [https://umami.hackinggate.com](https://umami.hackinggate.com).
 
 #### Third-party cookies
 
