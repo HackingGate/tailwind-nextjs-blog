@@ -4,7 +4,6 @@ date: '2023-09-29'
 tags: [Cloudflare, Zero Trust Network]
 type: Blog
 license: CC BY-SA 4.0
-draft: true
 ---
 
 Zero Trust Network has been hot these days. It's a new security model for the Internet to replace the old "castle-and-moat" model.
