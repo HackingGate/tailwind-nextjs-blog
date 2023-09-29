@@ -14,7 +14,7 @@ const projectsData = [
     Built with SwiftUI and Combine. Supports tvOS 15, iOS 15, iPadOS 15, and macOS 12.
     Supports Dark Mode and Dynamic Type.`,
     imgSrc:
-      'https://github.com/HackingGate/MyAnimeList-AppleMultiplatform/raw/main/Screenshots/TV_Home.png',
+      'https://github.com/HackingGate/MyAnimeList-AppleMultiplatform/raw/main/Screenshots/TV_Home.webp',
     href: 'https://github.com/HackingGate/MyAnimeList-AppleMultiplatform',
   },
   {
