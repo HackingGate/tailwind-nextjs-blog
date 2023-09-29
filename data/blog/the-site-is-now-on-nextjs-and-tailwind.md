@@ -18,7 +18,7 @@ I have migrated the site from Jekyll to Next.js and Tailwind. The new site is ho
 - The old site doesn't track analytics. The new site uses a self-hosting [umami](https://umami.is/) instance to collect analytics data.
 - The old site uses Disqus for comments. The new site uses [giscus](https://giscus.app/) for comments. Old comments are not migrated but can be found at https://hackinggate.gitlab.io.
 - The old site uses the YYYY/MM/DD date format for URL prefixes. The new site omits dates from the URL prefix since posts may be updated in the future, rendering the inclusion of dates unnecessary.
-- The new site uses redirects to keep urls from old site working, and It's configured at https://github.com/HackingGate/tailwind-nextjs-blog/blob/main/_redirects, supported by Cloudflare Pages. 
+- The new site uses redirects to keep URLs from old site working, and It's configured at https://github.com/HackingGate/tailwind-nextjs-blog/blob/main/_redirects, supported by Cloudflare Pages. 
 - The privacy policy is updated. You can find it at https://hackinggate.com/privacy.
 
 ## Why
@@ -31,7 +31,7 @@ I have migrated the site from Jekyll to Next.js and Tailwind. The new site is ho
 - I use Umami to collect analytics data as Umami does not collect any personal information, does not use cookies, does not track users across websites, and is GDPR compliant.
 - I use a self-hosting Umami instance over a Umami instance hosted by Umami as I can have full control over the data.
 - I use giscus over Disqus as giscus is eaiser to set up and manage, and is open source.
-- I use redirects of Cloudflare Pages to keep urls from old site working as I don't want to break links as well as for search engine indexing purpose.
+- I use redirects of Cloudflare Pages to keep URLs from old site working as I don't want to break links as well as for search engine indexing purpose.
 - I value privacy and transparency as I'm a privacy advocate.
 
 ## How
