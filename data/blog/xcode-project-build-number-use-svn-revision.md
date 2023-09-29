@@ -10,15 +10,15 @@ I wrote a script auto read svn revision number and replace Xcode project build n
 
 Select the project under **TARGETS** then click the **+** on top-left conor
 
-![+](/static/images/+.png)
+![+](/static/images/+.webp)
 
 Choose **New Run Script Phase**
 
-![new](/static/images/new.png)
+![new](/static/images/new.webp)
 
 Copy and paste this script
 
-![script](/static/images/script.png)
+![script](/static/images/script.webp)
 
 The script is
 

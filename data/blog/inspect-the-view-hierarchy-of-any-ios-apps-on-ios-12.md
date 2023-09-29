@@ -16,7 +16,7 @@ Read [Peter Steinberger](https://twitter.com/steipete)'s post [How to Inspect th
 
 I'll show you how to inspect with iOS 12.
 
-![Reveal-App-Store.png](/static/images/Reveal-App-Store.png)
+![Reveal-App-Store.png](/static/images/Reveal-App-Store.webp)
 
 ## Preparing
 
@@ -73,25 +73,25 @@ dpkg -i naville.revealloader2_1.0.0-1_iphoneos-arm.deb
 
 On your jailbroken device. Open Settings -> Reveal
 
-![Settings-Reveal.png](/static/images/Settings-Reveal.png)
+![Settings-Reveal.png](/static/images/Settings-Reveal.webp)
 
 Enable applications you want to inspect
 
-![Reveal-Enable.png](/static/images/Reveal-Enable.png)
+![Reveal-Enable.png](/static/images/Reveal-Enable.webp)
 
 Open Reveal.app. You'll see inspectable apps appear.
 
-![Reveal-App.png](/static/images/Reveal-App.png)
+![Reveal-App.png](/static/images/Reveal-App.webp)
 
 Reveal only works on Apple's own UI framework. Frameworks such as Flutter only shows one layer.
 
-![Reveal-FlutterView.png](/static/images/Reveal-FlutterView.png)
+![Reveal-FlutterView.png](/static/images/Reveal-FlutterView.webp)
 
 [Pinterest](https://itunes.apple.com/us/app/pinterest/id429047995) is using [ASCollectionView](https://github.com/abdullahselek/ASCollectionView) for its waterfall layout.
 
-![Reveal-Pinterest.png](/static/images/Reveal-Pinterest.png)
+![Reveal-Pinterest.png](/static/images/Reveal-Pinterest.webp)
 
 Pixiv ScrollView for image zoom.
 
-![Reveal-Pixiv.png](/static/images/Reveal-Pixiv.png)
+![Reveal-Pixiv.png](/static/images/Reveal-Pixiv.webp)
 

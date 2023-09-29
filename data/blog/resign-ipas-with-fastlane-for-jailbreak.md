@@ -30,7 +30,7 @@ Open Xcode -> Window -> Devices and Simulators (Shift + Command + 2)
 
 Add devices you want to jailbreak.
 
-![Add-Devices.png](/static/images/Add-Devices.png)
+![Add-Devices.png](/static/images/Add-Devices.webp)
 
 ## Create Certificate
 
@@ -38,43 +38,43 @@ Log in your [Apple Developer account](https://developer.apple.com/).
 
 We are going to create a Certificate, an Identifier, and a Profile.
 
-![Certificates-Identifiers-Profiles.png](/static/images/Certificates-Identifiers-Profiles.png)
+![Certificates-Identifiers-Profiles.png](/static/images/Certificates-Identifiers-Profiles.webp)
 
 Create a New Certificate. Select Apple Distribution.
 
-![Create-Apple-Distribution-Certificate.png](/static/images/Create-Apple-Distribution-Certificate.png)
+![Create-Apple-Distribution-Certificate.png](/static/images/Create-Apple-Distribution-Certificate.webp)
 
 ## Register App ID
 
 Register a new App ID.
 
-![Register-App-ID.png](/static/images/Register-App-ID.png)
+![Register-App-ID.png](/static/images/Register-App-ID.webp)
 
 Fill description with Undecimus. Fill Bundle ID with a reverse-domain name style string (i.e., com.example.undecimus).
 
-![Regieter-App-ID-Fill.png](/static/images/Regieter-App-ID-Fill.png)
+![Regieter-App-ID-Fill.png](/static/images/Regieter-App-ID-Fill.webp)
 
 ## Create Provisioning Profile
 
 Create a new Provisioning Profile.
 
-![Create-Provisioning-Profile.png](/static/images/Create-Provisioning-Profile.png)
+![Create-Provisioning-Profile.png](/static/images/Create-Provisioning-Profile.webp)
 
 On the next page. Select the App ID you just created.
 
-![Provisioning-Profile-Select.png](/static/images/Provisioning-Profile-Select.png)
+![Provisioning-Profile-Select.png](/static/images/Provisioning-Profile-Select.webp)
 
 Select the certificate you created before.
 
-![Select-Certificate.png](/static/images/Select-Certificate.png)
+![Select-Certificate.png](/static/images/Select-Certificate.webp)
 
 Select devices you wish to include. (Ad Hoc apps can only be installed on a limited number of registered devices)
 
-![Select-Devices.png](/static/images/Select-Devices.png)
+![Select-Devices.png](/static/images/Select-Devices.webp)
 
 Enter a Provisioning Profile Name and click Generate.
 
-![Name-Provisioning-Profile.png](/static/images/Name-Provisioning-Profile.png)
+![Name-Provisioning-Profile.png](/static/images/Name-Provisioning-Profile.webp)
 
 Download the Provisioning Profile (Undecimus_Ad_Hoc.mobileprovision). We'll use it later.
 
@@ -82,7 +82,7 @@ Download the Provisioning Profile (Undecimus_Ad_Hoc.mobileprovision). We'll use 
 
 Open Undecimus releases page. Download the latest .ipa file.
 
-![Undecimus-Download-IPA.png](/static/images/Undecimus-Download-IPA.png)
+![Undecimus-Download-IPA.png](/static/images/Undecimus-Download-IPA.webp)
 
 ## Resign IPA
 
@@ -106,7 +106,7 @@ Install [Apple Configurator 2](https://itunes.apple.com/jp/app/apple-configurato
 
 Select device. Drag & drop IPA.
 
-![Undecimus-Screenshot.png](/static/images/Undecimus-Screenshot.png)
+![Undecimus-Screenshot.png](/static/images/Undecimus-Screenshot.webp)
 
 The app expiry date is the same as your certificate. Which is up to one year.
 

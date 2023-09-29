@@ -27,7 +27,7 @@ After sign in with your Apple ID, export cookie as cookies.txt
 
 Copy that text, and save as cookies.txt:
 
-![cookies](/static/images/cookies.png)
+![cookies](/static/images/cookies.webp)
 
 To download Xcode 7.0 with aria2c, use this command:
 
@@ -49,7 +49,7 @@ To install Xcode:
 
 Open Xcode_7.dmg and drag Xcode to `/Applications`.
 
-![install](/static/images/install.png)
+![install](/static/images/install.webp)
 
 ## Fix permissions
 
@@ -59,7 +59,7 @@ If you installed a version from [Mac App Store](https://itunes.apple.com/en/app/
 ls -al /Applications/Xcode*/*
 ```
 
-![permissions](/static/images/permissions.png)
+![permissions](/static/images/permissions.webp)
 
 To change owner to `root`, group to `wheel`:
 

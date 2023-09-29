@@ -10,11 +10,11 @@ I was using [Seven-Eleven Multicopy](https://itunes.apple.com/us/app/seven-eleve
 
 My iPhone (iOS 13 Beta) is connected to Wi-Fi 711_MultiCopy.
 
-![711MultiCopy-WiFi.png](/static/images/711MultiCopy-WiFi.png)
+![711MultiCopy-WiFi.png](/static/images/711MultiCopy-WiFi.webp)
 
 But I can't send any documents via Wi-Fi to the printer. Because the Wi-Fi indicator shows Wi-Fi is not connected.
 
-![711MultiCopy-Send.png](/static/images/711MultiCopy-Send.png)
+![711MultiCopy-Send.png](/static/images/711MultiCopy-Send.webp)
 
 ## Why
 

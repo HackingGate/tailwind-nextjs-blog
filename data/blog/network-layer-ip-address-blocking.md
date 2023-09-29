@@ -29,7 +29,7 @@ Almost all websites and apps need DNS for locating and identifying. A customizab
 
 It supports many protocols and platforms. Comes with a clean web managemnt page. Many blocklists, TLDs block, custom list are available.
 
-![NextDNS-Default-Configuration-Privacy.png](/static/images/NextDNS-Default-Configuration-Privacy.png)
+![NextDNS-Default-Configuration-Privacy.png](/static/images/NextDNS-Default-Configuration-Privacy.webp)
 
 ## OpenWrt
 

@@ -10,7 +10,7 @@ We now supports macOS Mojave’s Dark Mode.
 
 If you are using latest macOS. Set your system appearance in Dark. You should see our site looks like this in Safari:
 
-![Mojave-Dark-Site-View.png](/static/images/Mojave-Dark-Site-View.png)
+![Mojave-Dark-Site-View.png](/static/images/Mojave-Dark-Site-View.webp)
 
 ## How it works
 

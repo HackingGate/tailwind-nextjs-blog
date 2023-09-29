@@ -170,11 +170,11 @@ Select "4 Localisation Options" -> "L1 Change Locale"
 
 Prees "space bar" to check All locales (will take time to generate)
 
-![Pi-Configure-Locale.png](/static/images/Pi-Configure-Locale.png)
+![Pi-Configure-Locale.png](/static/images/Pi-Configure-Locale.webp)
 
 Select en_US.UTF-8 as default.
 
-![Pi-Locale-enUS.png](/static/images/Pi-Locale-enUS.png)
+![Pi-Locale-enUS.png](/static/images/Pi-Locale-enUS.webp)
 
 Another way of doing this is to edit "/etc/locale.gen"
 
