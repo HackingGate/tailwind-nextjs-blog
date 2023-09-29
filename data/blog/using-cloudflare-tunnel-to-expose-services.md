@@ -20,5 +20,5 @@ Follow Cloudflare Zero Trust's guide to set up your Cloudflare account and Zero 
 
 After creating a Zero Trust team. You can go to Access Tunnels to create tunnels. Cloudflare Zero Trust will generate copy-pastable scripts to let you run tunnels with `cloudflared` command easily.
 
-![Cloudflare-Tunnel-creation](/static/images/Cloudflare-Tunnel-creation.png)
+![Cloudflare-Tunnel-creation](/static/images/Cloudflare-Tunnel-creation.webp)
 
