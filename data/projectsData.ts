@@ -10,9 +10,9 @@ const projectsData = [
   },
   {
     title: 'MyAnimeList-AppleMultiplatform',
-    description: `MyAnimeList client for iOS, iPadOS, macOS, and watchOS.
-    Built with SwiftUI and Combine. Supports tvOS 15, iOS 15, iPadOS 15, and macOS 12.
-    Supports Dark Mode and Dynamic Type.`,
+    description: `Unofficial MyAnimeList app for Apple TV, iPhone, iPad and Mac 
+    rewritten in SwiftUI and SwiftUIFlux (previous was TVML/TVJS).
+    Supports metadata browsing and anime watching.`,
     imgSrc:
       'https://github.com/HackingGate/MyAnimeList-AppleMultiplatform/raw/main/Screenshots/TV_Home.webp',
     href: 'https://github.com/HackingGate/MyAnimeList-AppleMultiplatform',
