@@ -11,7 +11,7 @@ RTL8812AU/21AU and RTL8814AU are the best chipsets.
 
 Here's the wifi dongle I'm going to use: [TP-LINK Archer T9UH](https://wikidevi.com/wiki/TP-LINK_Archer_T9UH)
 
-![Archer-T9UH.png](/static/images/Archer-T9UH.png)
+![Archer-T9UH.png](/static/images/Archer-T9UH.webp)
 
 Here's the wifi driver I'm going to use: [aircrack-ng/rtl8812au](https://github.com/aircrack-ng/rtl8812au.git)
 
@@ -23,7 +23,7 @@ Plug-in your Wi-Fi dongle. Execute `lsusb`.
 lsusb
 ```
 
-![Archer-T9UH-lsusb.png](/static/images/Archer-T9UH-lsusb.png)
+![Archer-T9UH-lsusb.png](/static/images/Archer-T9UH-lsusb.webp)
 
 Check if the device ID is supported by the [driver](https://github.com/aircrack-ng/rtl8812au/blob/v5.6.4.1/os_dep/linux/usb_intf.c#L259)
 
@@ -166,7 +166,7 @@ sudo aireplay-ng -0 50 -a XX:XX:XX:XX:XX:XX -c [Client MAC Address] wlan1
 
 You'll get a WPA handshake
 
-![WPA-handshake.png](/static/images/WPA-handshake.png)
+![WPA-handshake.png](/static/images/WPA-handshake.webp)
 
 Crack password with dictionary-attack
 

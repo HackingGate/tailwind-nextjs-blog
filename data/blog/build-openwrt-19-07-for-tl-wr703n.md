@@ -15,8 +15,8 @@ You have to build it on your own.
 Download my precompiled OpenWrt image for tl-wr703n from here:  
 https://downloads.hackinggate.com
 
-![TL-WR703N-OpenWrt-19.07.0.png](/static/images/TL-WR703N-OpenWrt-19.07.0.png)
-![TL-WR703N-OpenWrt-16m.png](/static/images/TL-WR703N-OpenWrt-16m.png)
+![TL-WR703N-OpenWrt-19.07.0.png](/static/images/TL-WR703N-OpenWrt-19.07.0.webp)
+![TL-WR703N-OpenWrt-16m.png](/static/images/TL-WR703N-OpenWrt-16m.webp)
 
 ## Prepare to Build
 

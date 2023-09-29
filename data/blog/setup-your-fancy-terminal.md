@@ -94,4 +94,4 @@ eval "$(starship init zsh)"
 
 ## Result
 
-![Fancy Terminal screenshot](/static/images/Fancy-Terminal-screenshot.png)
+![Fancy Terminal screenshot](/static/images/Fancy-Terminal-screenshot.webp)

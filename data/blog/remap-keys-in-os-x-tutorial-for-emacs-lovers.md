@@ -12,21 +12,21 @@ Open `System Preferences`
 
 Then go to `Keyboard` - `Modifier Keys...`
 
-![keyboard](/static/images/keyboard.png)
+![keyboard](/static/images/keyboard.webp)
 
 Remap `Caps Lock` to `Control`, then `OK`.
 
-![remap](/static/images/remap.png)
+![remap](/static/images/remap.webp)
 
 ## Use Option as Meta key
 
 For system terminal users:
 
-![system](/static/images/system.png)
+![system](/static/images/system.webp)
 
 For iterm terminal users:
 
-![iterm](/static/images/iterm.png)
+![iterm](/static/images/iterm.webp)
 
 ## Use Meta key in Global
 

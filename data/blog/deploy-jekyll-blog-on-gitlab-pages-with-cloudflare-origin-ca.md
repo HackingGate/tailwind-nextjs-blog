@@ -34,7 +34,7 @@ On May 1, 2018, GitHub announced [Custom domains on GitHub Pages gain support fo
 
 This is good news for me. I got HTTPS for free. Which means I can finally enable SSL Full (strict) on Cloudflare CDN.
 
-![SSL-Full-strict.png](/static/images/SSL-Full-strict.png)
+![SSL-Full-strict.png](/static/images/SSL-Full-strict.webp)
 
 But 3 months later. My HTTPS became untrusted. Because SSL issued by Let’s Encrypt expires in 3 months.
 
@@ -56,7 +56,7 @@ Open Cloudflare -> Your Awesome Site -> Crypto -> Origin Certificates -> Create 
 
 Click Next. Leave everything default is OK.
 
-![Generate-Cloudflare-Origin-Certificates.png](/static/images/Generate-Cloudflare-Origin-Certificates.png)
+![Generate-Cloudflare-Origin-Certificates.png](/static/images/Generate-Cloudflare-Origin-Certificates.webp)
 
 ### Configure custom CA on GitLab Pages
 
@@ -66,7 +66,7 @@ Open GitLab -> Your Awesome Project -> Settings -> Pages.
 
 Copy and paste the Certificate and Key you just generated.
 
-![GitLab-custom-certificate.png](/static/images/GitLab-custom-certificate.png)
+![GitLab-custom-certificate.png](/static/images/GitLab-custom-certificate.webp)
 
 I recommend creating multiple Origin Certificates for different servers to strengthen security.
 

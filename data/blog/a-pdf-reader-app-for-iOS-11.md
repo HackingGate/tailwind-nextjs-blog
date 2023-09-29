@@ -8,7 +8,7 @@ license: CC BY-SA 4.0
 A PDF Reader app for iOS 11
 ---
 
-![AppIcon](/static/images/AppIcon.png)
+![AppIcon](/static/images/AppIcon.webp)
 
 [![App_Store_Badge_Black.svg](/static/images/App_Store_Badge_Black.svg)](https://itunes.apple.com/us/app/pdf-reader-sync-documents/id1330895464?ls=1&mt=8)
 
@@ -22,7 +22,7 @@ Arabic and Hebrew are written from right to left normally.
 
 In this case, use the Right-to-Left mode is more comfortable for reading.
 
-![KalilaAndDemna](/static/images/KalilaAndDemna.png)
+![KalilaAndDemna](/static/images/KalilaAndDemna.webp)
 
 Chinese, Japanese and Korean can be set horizontally or vertically.
 
@@ -30,7 +30,7 @@ Chinese, Japanese and Korean can be set horizontally or vertically.
 
 Here's a vertical CJK text example:
 
-![CJK](/static/images/CJK.png)
+![CJK](/static/images/CJK.webp)
 
 PDF Reader also remembers zoom factor and scroll positions. You can zoom in or out to find your best reading scale. Page scrolls continuously so zoom factor could keep still.
 
@@ -38,13 +38,13 @@ PDF Reader also remembers zoom factor and scroll positions. You can zoom in or o
 
 If you have two or more iOS devices. Sign in the same Apple ID. And put PDF files in iCloud Drive.
 
-![Drive](/static/images/Drive.png)
+![Drive](/static/images/Drive.webp)
 
 Last viewed page number will send to iCloud when you close a file.
 
 After that. Open the same file on another device.
 
-![Found](/static/images/Found.png)
+![Found](/static/images/Found.webp)
 
 ## Supported languages
 
