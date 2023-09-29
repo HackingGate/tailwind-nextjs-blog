@@ -1,6 +1,6 @@
 ---
 name: Tong
-avatar: /static/images/avatar.png
+avatar: /static/images/avatar.webp
 email: i@hackinggate.com
 github: https://github.com/HackingGate
 type: Authors
