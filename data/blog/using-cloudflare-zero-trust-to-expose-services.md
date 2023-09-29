@@ -1,7 +1,7 @@
 ---
 title: Using Cloudflare Zero Trust to expose services
 date: '2023-09-29'
-tags: [Cloudflare, Zero Trust Network]
+tags: [Cloudflare, Zero Trust Network, SSH, HTTP]
 type: Blog
 license: CC BY-SA 4.0
 ---
