@@ -37,9 +37,9 @@ This is a screenshot of my Authentication settings:
 
 I have three authentication methods:
 
-- Google
+- One-time PIN (OTP) via email
 - GitHub
-- Email
+- Google
 
 And only members with the email domain `hackinggate.com` can access my services.
 
@@ -121,8 +121,6 @@ If you enabled app launcher, you can see the application in the app launcher:
 ## Conclusion
 
 Cloudflare Zero Trust is a great product. It's easy to use and has many features. I hope you can use it to protect your network and services.
-
-## References
 
 [^1]: Project Zero Trust is a book that uses a story-telling way to explain Zero Trust, and it's easy to understand.
 [^2]: You can read more about Cloudflare Zero Trust here: https://developers.cloudflare.com/cloudflare-one/.
