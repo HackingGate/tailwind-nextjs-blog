@@ -24,10 +24,10 @@ I have migrated the site from Jekyll to Next.js and Tailwind. The new site is ho
 ## Why
 
 - I use Cloudflare Pages over GitLab Pages with Cloudflare CDN as it is easier to set up and manage.
-- I use Tailwind as it is the most popular utility-first CSS framework.
 - I use Next.js as it is the most popular React framework.
+- I use Tailwind as it is the most popular utility-first CSS framework.
 - I use GitHub over GitLab as it is more popular and easier for open source collaboration.
-- I use CC BY-SA 4.0 as it is the most popular Creative Common license and allows content to be shared and adapted as long as the license is credited and the new work is licensed under the same terms.
+- I use CC BY-SA 4.0 as it is the most popular Creative Commons license and allows content to be shared and adapted as long as the license is credited and the new work is licensed under the same terms.
 - I use Umami to collect analytics data as Umami does not collect any personal information, does not use cookies, does not track users across websites, and is GDPR compliant.
 - I use a self-hosting Umami instance over a Umami instance hosted by Umami as I can have full control over the data.
 - I use giscus over Disqus as giscus is eaiser to set up and manage, and is open source.
