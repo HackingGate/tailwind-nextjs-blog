@@ -1,7 +1,7 @@
 ---
 title: Build OpenWrt 22.03 for TL-WR703N with 16m flash
 date: '2023-09-30'
-tags: [OpenWrt, tl-wr703n, ath79]
+tags: [OpenWrt, tl-wr703n, ath79, ar71xx, 16m, make, build]
 type: Blog
 license: CC BY-SA 4.0
 ---
