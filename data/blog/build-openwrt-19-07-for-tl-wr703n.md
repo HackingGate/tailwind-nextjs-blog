@@ -1,88 +1,144 @@
 ---
-title: Build OpenWrt 19.07 for tl-wr703n
-date: '2020-01-25'
-tags: [OpenWrt, tl-wr703n]
+title: Build OpenWrt 22.03 for TL-WR703N with 16m flash
+date: '2023-09-30'
+tags: [OpenWrt, tl-wr703n, ath79]
 type: Blog
 license: CC BY-SA 4.0
 ---
 
-Since 18.06, OpenWrt no longer provide image for tl-wr703n because of default 4m flash is not enough.  
-If you want to use latest OpenWrt on your modified tl-wr703n.  
+Since 18.06, OpenWrt no longer provide image for TL-WR703N because of default 4m flash is not enough.  
+If you want to use latest OpenWrt on your modified TL-WR703N.  
 You have to build it on your own.  
+
+`ar71xx` has been migrated to `ath79` since 19.07. This tutorial is for `ath79`.
 
 ## Precompiled
 
-Download my precompiled OpenWrt image for tl-wr703n from here:  
-https://downloads.hackinggate.com
+~~Download my precompiled OpenWrt image for TL-WR703N from here:~~  
+~~https://downloads.hackinggate.com~~ (No longer maintained)
 
 ![TL-WR703N-OpenWrt-19.07.0.png](/static/images/TL-WR703N-OpenWrt-19.07.0.webp)
 ![TL-WR703N-OpenWrt-16m.png](/static/images/TL-WR703N-OpenWrt-16m.webp)
 
 ## Prepare to Build
 
-Update: If you want to build the latest version 19.07.2. Just replace the version number in my tutorial.  
-
-Please read [Install build system](https://openwrt.org/docs/guide-developer/build-system/install-buildsystem) and [Quick Image Building Guide](https://openwrt.org/docs/guide-developer/quickstart-build-images).
+Please read [Install build system](https://openwrt.org/docs/guide-developer/build-system/install-buildsystem).
 
 Make sure all dependencies are installed.
 
-Clone source code and install feeds
+Clone the OpenWrt source code.
 
-```sh
+```bash
 git clone https://github.com/openwrt/openwrt.git
 cd openwrt
-git checkout v19.07.0
+```
+
+Checkout the version you want to build. We will use v22.03.5 as example.
+
+```bash
+git tag -l
+git checkout v22.03.5
+```
+
+Install feeds.
+
+```bash
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 ```
 
-This will build the latest Snapshot. If you want stable release. `git checkout [TAG]`.
-
 Make sure there's no dependency error.
 
-Make sure there's enougth RAM or Swap.
+Make sure there's enougth RAM or swap for build.
 
-## Add tl-wr703n-v1 defination
+## Modify the Device/tplink_tl-wr703n Definition
 
 After I took some look at the source code.  
-Edit `target/linux/ar71xx/image/generic-tp-link.mk`.  
-Add the tl-wr703n-v1 define above tl-wr710n-v1. Note the TPLINK_HWID is different with tl-wr710n.  
+Edit `target/linux/ath79/image/tiny-tp-link.mk`.  
+Find the line `define Device/tplink_tl-wr703n` and change the line `$(Device/tplink-4mlzma)` to `$(Device/tplink-16mlzma)`.
 If you have modified flash. For me it's 16m.  
+The result should be like this.
 
-```conf
-define Device/tl-wr703n-v1
+```target/linux/ath79/image/tiny-tp-link.mk
+define Device/tplink_tl-wr703n
   $(Device/tplink-16mlzma)
-  DEVICE_TITLE := TP-LINK TL-WR703N v1
-  DEVICE_PACKAGES := kmod-usb-core kmod-usb2
-  BOARDNAME := TL-WR703N
-  DEVICE_PROFILE := TLWR703
+  SOC := ar9331            
+  DEVICE_MODEL := TL-WR703N                            
+  DEVICE_PACKAGES := kmod-usb-chipidea2
   TPLINK_HWID := 0x07030101
-  CONSOLE := ttyATH0,115200
-  IMAGE/factory.bin := append-rootfs | mktplinkfw factory -C US
+  SUPPORTED_DEVICES += tl-wr703n     
 endef
-TARGET_DEVICES += tl-wr703n-v1
+TARGET_DEVICES += tplink_tl-wr703n
+```
+
+### Modify the dts file for 16m flash
+
+Edit `target/linux/ath79/dts/ar9331_tplink_tl-wr703n_tl-mr10u.dtsi`    
+Under `partition@20000 {` change the line `reg = <0x20000 0x3d0000>;` to `reg = <0x20000 0xfd0000>;`.  
+Find the line `art: partition@3f0000 {` and change it to `art: partition@ff0000 {`.  
+And under that, change the line `reg = <0x3f0000 0x10000>;` to `reg = <0xff0000 0x10000>;`.  
+The result should be like this.
+
+```target/linux/ath79/dts/ar9331_tplink_tl-wr703n_tl-mr10u.dtsi
+&spi {                  
+        status = "okay";
+                                             
+        flash@0 {                            
+                compatible = "jedec,spi-nor";  
+                reg = <0>;                     
+                spi-max-frequency = <25000000>;
+                                                        
+                partitions {                            
+                        compatible = "fixed-partitions";
+                        #address-cells = <1>;
+                        #size-cells = <1>;  
+                                                    
+                        uboot: partition@0 {        
+                                reg = <0x0 0x20000>;
+                                label = "u-boot";
+                                read-only;
+                        };                                     
+                                                               
+                        partition@20000 {                      
+                                compatible = "tplink,firmware";
+                                reg = <0x20000 0xfd0000>;
+                                label = "firmware";
+                        };                               
+                                                         
+                        art: partition@ff0000 {          
+                                reg = <0xff0000 0x10000>;
+                                label = "art";
+                                read-only;
+                        };
+                };
+        };
+};
 ```
 
 ## Configure Build
 
-Use this config.seed (modify link if you are building for stable release)
+Use this `config.buildinfo` for OpenWrt v22.03.5 (modify the link if you are building for different version)
 
-```sh
-wget https://downloads.openwrt.org/releases/19.07.0/targets/ar71xx/generic/config.buildinfo -O config.buildinfo
-rm -rf .config*
-mv config.buildinfo .config
+```bash
+wget https://downloads.openwrt.org/releases/22.03.5/targets/ath79/tiny/config.buildinfo -O config.buildinfo
 ```
 
-Add the following two lines to .config
+Add the following two lines to `config.buildinfo`
 
 ```conf
-CONFIG_TARGET_DEVICE_ar71xx_generic_DEVICE_tl-wr703n-v1=y
-CONFIG_TARGET_DEVICE_PACKAGES_ar71xx_generic_DEVICE_tl-wr703n-v1=""
+CONFIG_TARGET_DEVICE_ath79_tiny_DEVICE_tl-wr703n-v1=y
+CONFIG_TARGET_DEVICE_PACKAGES_ath79_tiny_DEVICE_tl-wr703n-v1=""
 ```
 
-You should see **TP-LINK TLWR703N v1** appeared in Target Devices.
+Overwrite `.config` with `config.buildinfo`
 
-```sh
+```bash
+cat config.buildinfo > .config
+```
+
+You should see **TL-WR703N** appeared in Target Devices.
+
+```bash
 make defconfig
 make menuconfig
 ```
@@ -91,8 +147,8 @@ make menuconfig
 
 This will take minutes to hours.
 
-```sh
-nohup time make -j4 V=s &
+```bash
+nohup time make -j8 V=s &
 ```
 
 ```
@@ -150,14 +206,13 @@ In my case, openvswitch-2.11.0 was failed to build.
 
 Upload image to router (OpenWrt) and upgrade.
 
-```sh
-scp bin/targets/ar71xx/generic/openwrt-ar71xx-generic-tl-wr703n-v1-squashfs-sysupgrade.bin root@192.168.1.1:/tmp/
+```bash
+scp bin/targets/ath79/tiny/openwrt-ath79-tiny-tplink_tl-wr703n-squashfs-sysupgrade.bin root@192.168.1.1:/tmp/
 ssh root@192.168.1.1
-sysupgrade -i /tmp/openwrt-ar71xx-generic-tl-wr703n-v1-squashfs-sysupgrade.bin
+sysupgrade -i /tmp/openwrt-ath79-tiny-tplink_tl-wr703n-squashfs-sysupgrade.bin
 ```
 
 ## After install
 
-I have some tips for you. Shell script for upgrade all packages, DNS-over-TLS, etc.  
+I have some tips for you. Shell script for upgrade all packages, DNS-over-TLS, etc. Please check my gist as below.  
 https://gist.github.com/HackingGate/b75ac856397075756ea878380c5b848c
-
