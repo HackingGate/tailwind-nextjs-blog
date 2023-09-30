@@ -11,8 +11,7 @@ Since 18.06, OpenWrt no longer provide image for TL-WR703N because of default 4m
 If you want to use latest OpenWrt on your modified TL-WR703N.  
 You have to build it on your own.  
 
-`ar71xx` has been migrating[^1] to `ath79` since 19.07, on 21.02 and later, `ar71xx` has been removed.
-. This tutorial is for `ath79`.
+`ar71xx` has been migrating[^1] to `ath79` since 19.07, on 21.02 and later, `ar71xx` has been removed. This tutorial is for `ath79`.
 
 ## Precompiled
 
