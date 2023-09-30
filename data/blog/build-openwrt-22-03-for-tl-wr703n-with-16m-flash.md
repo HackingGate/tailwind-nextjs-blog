@@ -5,12 +5,14 @@ tags: [OpenWrt, tl-wr703n, ath79]
 type: Blog
 license: CC BY-SA 4.0
 ---
+*The blog post has been updated on September 30, 2023. The original post was written on January 25, 2020 and can be found [here](https://hackinggate.gitlab.io/2020/01/25/build-openwrt-19-07-for-tl-wr703n.html).*
 
 Since 18.06, OpenWrt no longer provide image for TL-WR703N because of default 4m flash is not enough.  
 If you want to use latest OpenWrt on your modified TL-WR703N.  
 You have to build it on your own.  
 
-`ar71xx` has been migrated to `ath79` since 19.07. This tutorial is for `ath79`.
+`ar71xx` has been migrating[^1] to `ath79` since 19.07, on 21.02 and later, `ar71xx` has been removed.
+. This tutorial is for `ath79`.
 
 ## Precompiled
 
@@ -216,3 +218,5 @@ sysupgrade -i /tmp/openwrt-ath79-tiny-tplink_tl-wr703n-squashfs-sysupgrade.bin
 
 I have some tips for you. Shell script for upgrade all packages, DNS-over-TLS, etc. Please check my gist as below.  
 https://gist.github.com/HackingGate/b75ac856397075756ea878380c5b848c
+
+[^1]: You can read more about [ar71xx-ath79 transition](https://openwrt.org/docs/techref/targets/ath79#ar71xx-ath79_transition).
