@@ -9,6 +9,14 @@ const projectsData = [
     href: 'https://github.com/HackingGate/Country-IP-Blocks',
   },
   {
+    title: 'Typst Out',
+    description: `A GitHub Action to build builds Typst files in your repository using a custom Typst ref,
+    producing configurable output files and uploading them as artifacts.
+    `,
+    imgSrc: '/static/images/Typst-Out.webp',
+    href: 'https://github.com/marketplace/actions/typst-out',
+  },
+  {
     title: 'MyAnimeList-AppleMultiplatform',
     description: `Unofficial MyAnimeList app for Apple TV, iPhone, iPad and Mac 
     rewritten in SwiftUI and SwiftUIFlux (previous was TVML/TVJS).
