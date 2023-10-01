@@ -6,7 +6,7 @@ type: Blog
 license: CC BY-SA 4.0
 ---
 
-In a recent VPN project. I was tasked with implementing the backend system for the project.
+In a recent VPN project, I was tasked with implementing the backend system for the project.
 The backend system consists of two parts: 
 - VPN core for providing the VPN nodes and a few APIs for internal user states and stats management. Designed to be fault-tolerant and scalable.
 - A set of serverless functions for managing user accounts, payments, status and stats, interacting with the VPN core for user management.
@@ -64,13 +64,15 @@ The `CurrentUserStats(request)` function returns the current user stats in the d
 func tick() {
 	users := database.QueryActiveUsers()
 	for _, user := range users {
+		lock.Lock() // Locking the shared resource
 		stat := user_stats.GetUserStats(user.Email)
 		delta := user_stats.SubtractUserStats(stat, sharedInstance.LastUserStats[user.Email])
-		if _, err := user_stats.AddAndSaveUserStats(user.Email, delta); err != nil {
+		if _, err := user_stats.AddAndSaveUserStatsByEmail(user.Email, delta); err != nil {
 			log.Fatal(err)
 			return
 		}
 		sharedInstance.LastUserStats[user.Email] = stat
+		lock.Unlock() // Unlocking after modifying the shared resource
 	}
 }
 ```
@@ -109,10 +111,10 @@ func AddAndSaveUserStatsByEmail(email string, delta models.UserStat) (*models.Us
 	user.Downlink = updatedStats.Downlink
 
 	// Save the updated stats back to the database
-	if user, err := database.UpdateUserStatsByEmail(email, &updatedStats); err != nil {
+	if updatedUser, err := database.UpdateUserStatsByEmail(email, &updatedStats); err != nil {
 		return nil, err
 	} else {
-		return user, nil
+		return updatedUser, nil
 	}
 }
 ```
