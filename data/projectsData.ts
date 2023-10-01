@@ -10,8 +10,8 @@ const projectsData = [
   },
   {
     title: 'Typst Out',
-    description: `A GitHub Action to build builds Typst files in your repository using a custom Typst ref,
-    producing configurable output files and uploading them as artifacts.
+    description: `A GitHub Action to build Typst files in your repository using a custom Typst Git ref,
+    producing configurable output files and uploading them as artifacts. Supports caching.
     `,
     imgSrc: '/static/images/Typst-Out.webp',
     href: 'https://github.com/marketplace/actions/typst-out',
