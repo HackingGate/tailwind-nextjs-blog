@@ -1,7 +1,7 @@
 ---
-title: Persisting Real-Time User Data in a Go Project
+title: Persisting Real-Time User Data in a Golang Project
 date: '2023-10-01'
-tags: [Go, VPN, Delta, Database, Ticker, Gin, JSON, Swift]
+tags: [Golang, VPN, Delta, Database, Ticker, Gin, JSON, Swift]
 type: Blog
 license: CC BY-SA 4.0
 ---
@@ -234,7 +234,7 @@ The user stats will only be updated when the testing program is running. And if 
 
 ## Thoughts on Go
 
-When I was first writing Go methods, I made mistake by using very simple names for them like using `UpdateUser` instead of `UpdateUserEnabledByEmail`. I thought it would be nice if I could overload the `UpdateUser` method to handle the updating of user stats.
+When I was first writing Go methods, I made a mistake by using very simple names for them like using `UpdateUser` instead of `UpdateUserEnabledByEmail`. I thought it would be nice if I could overload the `UpdateUser` method to handle the updating of user stats.
 
 When I first wrote the `AddUserStats()` and `SubtractUserStats()` functions, I thought it would be nice if I could overload the `+` and `-` operators for the `UserStat` type.
 
