@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-date: '2023-09-28'
+date: '2023-10-02'
 tags: []
 type: Other
 ---
@@ -31,7 +31,7 @@ Here is the list of personal and non-personal data that we process and/or collec
 
 **Comments (personal data):** for users who comment on our website. Comment feature is provided by giscus. Comments are public and visiable to other users. **Data Processors:** giscus organization, GitHub.
 
-**Analytics (non-personal data):** we use a self-hosting umami instance to collect analytics data. If you have JavaScript enabled, umami collects information about your device and browser for analytics purposes. To opt-out of this service, use a script blocker to block [https://umami.hackinggate.com/script.js](https://umami.hackinggate.com/script.js), or a domain blocker to block [https://umami.hackinggate.com](https://umami.hackinggate.com). **Data Processors:** umami, Vercel, Neon.
+**Analytics (non-personal data):** we use a self-hosting umami instance to collect analytics data. If you have JavaScript enabled, umami collects information about your device and browser for analytics purposes. To opt-out of this service, use a script blocker to block [https://umami.hackinggate.com/script.js](https://umami.hackinggate.com/script.js), or a domain blocker to block [https://umami.hackinggate.com](https://umami.hackinggate.com). **Data Processors:** umami, Supabase, Vercel.
 
 ### Data Processors
 
@@ -55,10 +55,10 @@ Privacy Policy: [https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md](h
 Website: [https://github.com](https://github.com)  
 Privacy Statement: [https://docs.github.com/en/github/site-policy/github-privacy-statement](https://docs.github.com/en/github/site-policy/github-privacy-statement)
 
-#### Neon
+#### Supabase
 
-Website: [https://neon.tech/](https://neon.tech/)  
-Privacy Policy: [https://neon.tech/privacy-policy](https://neon.tech/privacy-policy)
+Website: [https://supabase.io](https://supabase.io)  
+Privacy Policy: [https://supabase.io/privacy](https://supabase.io/privacy)
 
 #### umami
 
