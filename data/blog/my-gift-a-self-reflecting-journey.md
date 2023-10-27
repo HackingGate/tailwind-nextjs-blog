@@ -22,7 +22,7 @@ After reflecting on myself, I found the following traits.
 
 ## What impact do those traits have on me
 
-When I see someone blocks me, I get stressed and try to do my best to bypass that stressor and try to make my life a better state for me.
+When I encounter something that hinders me, I get stressed and try to do my best to bypass that stressor and try to make my life a better state for me.
 
 ## Interpersonal relationship
 
