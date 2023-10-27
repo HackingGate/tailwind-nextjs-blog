@@ -10,17 +10,17 @@ license: CC BY-NC-ND 4.0
 
 After playing Life is Strange, one of my favorite video game series. I notice every main character has their own gift, discovered during their life journey. Their gift appears after a special event, and most likely, developed during a time of childhood trauma etc.
 
-Everyone has their personality, and they are different. Does that means everyone has their gift? I like the word "gift"[^1], it's the core of the main character in every Life is Strange title.
+Everyone has their personality, and they are different. Does that means everyone has their gift? I like the word "gift"[^1], it's the core of the main character in the "Life is Strange" series. I want to find my gift.
 
-## Thinking about what gift do I have possibly
+## Thinking about my possible gift
 
-After reflecting on myself, I found the following I can talk about.
+After reflecting on myself, I found the following traits.
 
 - I have a strong desire to pursue my dream or a state I feel good.
-- I have a negative thought that I believe my parents are blockers of my dream pursuer when I was a teenage.
+- In my teenage years, I believe my parents hindered me from pursuing my dream.
 - I am resilient. I don't give up.
 
-## What impact do those things make
+## What impact do those traits have on me
 
 When I see someone blocks me, I get stressed and try to do my best to bypass that stressor and try to make my life a better state for me.
 
@@ -55,4 +55,4 @@ The common factor of those stories
 
 Combining the above, although I feel stressed and anxiety sometime, if I can transition stress into motivation and try to eliminate the feeling of anxiety, I will have a strong desire to pursue my dream, and I will be resilient to make my dream come true.
 
-[^1]: Wiktionary - [Gift](https://en.wiktionary.org/wiki/gift#Noun) in terms of abilities, talents
+[^1]: Wiktionary - [Gift](https://en.wiktionary.org/wiki/gift#Noun): A talent or natural ability.
