@@ -17,6 +17,11 @@ The following tools installed on your machine:
 - Cloudflare provider: [cloudflare/terraform-provider-cloudflare](https://github.com/cloudflare/terraform-provider-cloudflare)
 - Utility to terraform existing Cloudflare resources: [cloudflare/cf-terraforming](https://github.com/cloudflare/cf-terraforming)
 
+A Cloudflare account with a domain configured.
+
+Find the Zone ID and Account ID of your domain by following the instructions in the following link:
+https://developers.cloudflare.com/fundamentals/setup/find-account-and-zone-ids/
+
 ## Getting Started
 
 ### Terraform DNS Records 
@@ -69,3 +74,39 @@ Replace the `'<Cloudflare_Email>'` with your Cloudflare account email, `'<API_TO
 Run `terraform init` to initialize the provider and `terraform plan` to see the changes that will be applied.
 
 Run `terraform apply` to apply the changes.
+
+### Terraform Cloudflare Tunnel
+
+Edit the api token created in the previous step and add the following permissions:
+
+- Account -> Cloudflare Tunnel -> Edit
+
+```bash
+cf-terraforming generate -e '<Cloudflare_Email>' \
+  -t '<API_TOKEN>' \
+  --resource-type 'cloudflare_tunnel' \
+  --account '<ACCOUNT_ID>' \
+  > cloudflare_tunnel.tf
+```
+
+Run `terraform plan` to see the changes that will be applied.
+
+Run `terraform apply` to apply the changes.
+
+### Terraform Cloudflare Access
+
+Edit the api token created in the previous step and add the following permissions:
+
+- Account -> Access: Apps And Policies -> Edit
+
+```bash
+cf-terraforming generate -e '<Cloudflare_Email>' \
+  -t '<API_TOKEN>' \
+  --resource-type 'cloudflare_access_application' \
+  --account '<ACCOUNT_ID>' \
+  > cloudflare_access_application.tf
+```
+
+## Conclusion
+
+I noticed not all functionality supported by the Cloudflare provider for Terraform, the state will not be read when I try to run `terraform plan` or `terraform apply` and I have to manually delete the resource from the Cloudflare dashboard and re-run `terraform apply` to create the resource again.
