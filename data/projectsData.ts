@@ -33,6 +33,14 @@ const projectsData = [
     href: '/blog/a-pdf-reader-app-for-iOS-11',
   },
   {
+    title: 'SwiftUI Car Controller',
+    description: `A SwiftUI client and Python server set to control your Raspberry Pi powered car
+    using MFi gamepad and WebSocket communication protocol over WiFi.
+    Requires Xcode 11, Python3, and hardware setup.`,
+    imgSrc: 'https://i9.ytimg.com/vi_webp/xWxq16ceorE/mq2.webp?sqp=CIzlo6oG&rs=AOn4CLARDsGrElHsbTTRo6QvwkdeFeSSHQ',
+    href: 'https://github.com/HackingGate/SwiftUI-Car-Controller',
+  },
+  {
     title: 'Reveal2Loader (fork)',
     description: `Reveal Loader dynamically loads libReveal.dylib (Reveal.app support) into iOS apps on jailbroken devices.
     This GitHub fork adds support for iOS 12 and tested with latest Reveal.app versions in 2019 and 2020.`,
