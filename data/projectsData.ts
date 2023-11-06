@@ -47,6 +47,14 @@ const projectsData = [
     imgSrc: '/static/images/Reveal-App-Store.webp',
     href: 'https://github.com/HackingGate/Reveal2Loader',
   },
+  {
+    title: 'APN Messages Demo',
+    description: `A demo app to send messages via Apple Push Notification service (APNs) using Swift.
+    By stores a record in CloudKit and no need to manage a server.
+    Supports end-to-end encryption.`,
+    imgSrc: 'https://i9.ytimg.com/vi_webp/cRcZzh9bFdI/mq2.webp?sqp=CMD1o6oG&rs=AOn4CLA2TTwGcJ6VMfUNz-a6dzt2_-Vtbw',
+    href: 'https://github.com/HackingGate/APN-Messages-Demo',
+  }
 ]
 
 export default projectsData
