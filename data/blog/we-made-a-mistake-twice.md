@@ -24,7 +24,8 @@ I answered "India", since I heard Indian guys are doing great in Silicon Valley,
 
 The notary asked me a question, "Where did you buy your high school credentials?". I was shocked, "What? I received it from my high school, I didn't buy it." I answered.
 "Your high school credentials are fake, you can't use it for college application." The notary said.
-I know there are a lot of things are fake in China, but I didn't expect my high school credentials are fake because I received it from my high school, I thought.
+I know there are a lot of things are fake in China, but I didn't expect my high school credentials are fake because I received it from my high school,
+How can they make a fake one to me. Even my dad asked me to check if there was a stencil seal on it when I received it, I've checked, and that was real.
 
 I was trying to speculate why the notary said that. "Is it because I'm a borrower[^1]?", I was confused. "No, even a borrower's credentials should be valid." The notary answered.
 
