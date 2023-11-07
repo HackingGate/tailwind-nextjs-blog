@@ -21,8 +21,7 @@ const projectsData = [
     description: `Unofficial MyAnimeList app for Apple TV, iPhone, iPad and Mac 
     rewritten in SwiftUI and SwiftUIFlux (previous was TVML/TVJS).
     Supports metadata browsing and anime watching.`,
-    imgSrc:
-      'https://github.com/HackingGate/MyAnimeList-AppleMultiplatform/raw/main/Screenshots/TV_Home.webp',
+    imgSrc: '/static/images/MyAnimeList-AppleMultiplatform.webp',
     href: 'https://github.com/HackingGate/MyAnimeList-AppleMultiplatform',
   },
   {
@@ -37,7 +36,7 @@ const projectsData = [
     description: `A SwiftUI client and Python server set to control your Raspberry Pi powered car
     using MFi gamepad and WebSocket communication protocol over WiFi.
     Requires Xcode 11, Python3, and hardware setup.`,
-    imgSrc: 'https://i9.ytimg.com/vi_webp/xWxq16ceorE/mq2.webp?sqp=CIzlo6oG&rs=AOn4CLARDsGrElHsbTTRo6QvwkdeFeSSHQ',
+    imgSrc: '/static/images/SwiftUI-Car-Controller.webp',
     href: 'https://github.com/HackingGate/SwiftUI-Car-Controller',
   },
   {
@@ -52,9 +51,9 @@ const projectsData = [
     description: `A demo app to send messages via Apple Push Notification service (APNs) using Swift.
     By stores a record in CloudKit and no need to manage a server.
     Supports end-to-end encryption.`,
-    imgSrc: 'https://i9.ytimg.com/vi_webp/cRcZzh9bFdI/mq2.webp?sqp=CMD1o6oG&rs=AOn4CLA2TTwGcJ6VMfUNz-a6dzt2_-Vtbw',
+    imgSrc: '/static/images/APN-Messages-Demo.webp',
     href: 'https://github.com/HackingGate/APN-Messages-Demo',
-  }
+  },
 ]
 
 export default projectsData
