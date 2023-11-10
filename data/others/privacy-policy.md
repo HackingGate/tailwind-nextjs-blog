@@ -85,12 +85,6 @@ Privacy Policy: [https://vercel.com/legal/privacy-policy](https://vercel.com/leg
 Strictly Necessary cookies are essential to providing our Services to you and cannot be turned off.
 - Our service provider Cloudflare (as mentioned above) may place bot detection cookies (such as "_cf_bm"), cookies for CAPTCHA products (like cf_chl_prog, cf_clearance, cf_chl_cc_XXX, cf_chl_seq_XXX, cf_chl_rc_i and cf_chl_rc_ni), and a load balancing cookie (_cflb) on the computers of visitors to our Services. Cloudflare do this in order to identify malicious visitors to our Services, to assist with web-traffic filtration, and to reduce the chance of blocking legitimate users. You can learn more about these cookies [here](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/). You cannot turn off Strictly Necessary cookies.
 
-#### Functional cookies
-
-Functional cookies are necessary to help our Services to work as intended.
-
-- Our site uses a functional cookie to record your theme preference (system, light or dark) to enhance your browsing experience.
-
 #### Analytics cookies
 
 Analytics cookies collect information about your use of our Services and enable us to improve the way they work.
@@ -101,6 +95,7 @@ Analytics cookies collect information about your use of our Services and enable 
 
 Local Storage is a method of storing data locally in your browser. It is similar to cookies, but has a higher capacity and does not send data to the server with every request.
 
+- Our site uses local storage to record your theme preference (system, light or dark) to enhance your browsing experience.
 - Our Services use giscus (as mentioned above) which, if you sign in using GitHub, stores a server-encrypted token in your browser's local storage to facilitate authenticated requests to the GitHub API, allowing you to remain signed in; for more details, please refer to the [giscus Privacy Policy](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md) and [GitHub's Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).
 
 ### Security
