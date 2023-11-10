@@ -78,7 +78,7 @@ Privacy Policy: [https://umami.is/privacy](https://umami.is/privacy)
 Website: [https://vercel.com](https://vercel.com)  
 Privacy Policy: [https://vercel.com/legal/privacy-policy](https://vercel.com/legal/privacy-policy)
 
-### Cookie Policy
+### Cookie and Local Storage
 
 #### Strictly Necessary cookies
 
@@ -91,12 +91,17 @@ Functional cookies are necessary to help our Services to work as intended.
 
 - Our site uses a functional cookie to record your theme preference (system, light or dark) to enhance your browsing experience.
 
-#### Third-party cookies
+#### First-Party Cookies
 
-Third-party cookies are from domains distinct from ours and serve various functions.
+First-Party Cookies are cookies set with the same domain (or its subdomain) as your browser's address bar.
 
-- Our Services use a third-party comments service via the giscus organization (as mentioned above) which, if you sign in using GitHub, stores a server-encrypted token in your browser's local storage to facilitate authenticated requests to the GitHub API, allowing you to remain signed in; for more details, please refer to the [giscus Privacy Policy](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md) and [GitHub's Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).
 - Our Services use Google Analytics (as mentioned above) to collect analytics data. You can opt-out of this service by using a script blocker to block [https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN](https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN), or a domain blocker to block [https://www.googletagmanager.com](https://www.googletagmanager.com). You can learn more about Google Analytics cookies [here](https://support.google.com/analytics/answer/11397207).
+
+#### Local Storage
+
+Local Storage is a method of storing data locally in your browser. It is similar to cookies, but has a higher capacity and does not send data to the server with every request.
+
+- Our Services use giscus (as mentioned above) which, if you sign in using GitHub, stores a server-encrypted token in your browser's local storage to facilitate authenticated requests to the GitHub API, allowing you to remain signed in; for more details, please refer to the [giscus Privacy Policy](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md) and [GitHub's Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).
 
 ### Security
 
