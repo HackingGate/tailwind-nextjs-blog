@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-date: '2023-10-02'
+date: '2023-11-11'
 tags: []
 type: Other
 ---
@@ -31,7 +31,10 @@ Here is the list of personal and non-personal data that we process and/or collec
 
 **Comments (personal data):** for users who comment on our website. Comment feature is provided by giscus. Comments are public and visiable to other users. **Data Processors:** giscus organization, GitHub.
 
-**Analytics (non-personal data):** we use a self-hosting umami instance to collect analytics data. If you have JavaScript enabled, umami collects information about your device and browser for analytics purposes. To opt-out of this service, use a script blocker to block [https://umami.hackinggate.com/script.js](https://umami.hackinggate.com/script.js), or a domain blocker to block [https://umami.hackinggate.com](https://umami.hackinggate.com). **Data Processors:** umami, Supabase, Vercel.
+**Analytics (non-personal data):** we use a self-hosting umami instance and Google Analytics to collect analytics data.
+If you have JavaScript enabled, umami and Google Analytics collects information about your device and browser for analytics purposes.
+To opt-out of this service, use a script blocker to block [https://umami.hackinggate.com/script.js](https://umami.hackinggate.com/script.js) and [https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN](https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN)
+, or a domain blocker to block [https://umami.hackinggate.com](https://umami.hackinggate.com) and [https://www.googletagmanager.com](https://www.googletagmanager.com). **Data Processors:** umami, Supabase, Vercel, Google Analytics.
 
 ### Data Processors
 
@@ -55,6 +58,11 @@ Privacy Policy: [https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md](h
 Website: [https://github.com](https://github.com)  
 Privacy Statement: [https://docs.github.com/en/github/site-policy/github-privacy-statement](https://docs.github.com/en/github/site-policy/github-privacy-statement)
 
+#### Google Analytics
+
+Website: [https://analytics.google.com](https://analytics.google.com)
+Privacy Policy: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
 #### Supabase
 
 Website: [https://supabase.io](https://supabase.io)  
@@ -70,24 +78,25 @@ Privacy Policy: [https://umami.is/privacy](https://umami.is/privacy)
 Website: [https://vercel.com](https://vercel.com)  
 Privacy Policy: [https://vercel.com/legal/privacy-policy](https://vercel.com/legal/privacy-policy)
 
-### Cookie Policy
+### Cookie and Local Storage
 
 #### Strictly Necessary cookies
 
 Strictly Necessary cookies are essential to providing our Services to you and cannot be turned off.
 - Our service provider Cloudflare (as mentioned above) may place bot detection cookies (such as "_cf_bm"), cookies for CAPTCHA products (like cf_chl_prog, cf_clearance, cf_chl_cc_XXX, cf_chl_seq_XXX, cf_chl_rc_i and cf_chl_rc_ni), and a load balancing cookie (_cflb) on the computers of visitors to our Services. Cloudflare do this in order to identify malicious visitors to our Services, to assist with web-traffic filtration, and to reduce the chance of blocking legitimate users. You can learn more about these cookies [here](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/). You cannot turn off Strictly Necessary cookies.
 
-#### Functional cookies
+#### Analytics cookies
 
-Functional cookies are necessary to help our Services to work as intended.
+Analytics cookies collect information about your use of our Services and enable us to improve the way they work.
 
-- Our site uses a functional cookie to record your theme preference (system, light or dark) to enhance your browsing experience.
+- Our Services use Google Analytics (as mentioned above) to collect analytics data. You can opt-out of this service by using a script blocker to block [https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN](https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN), or a domain blocker to block [https://www.googletagmanager.com](https://www.googletagmanager.com). You can learn more about Google Analytics cookies [here](https://support.google.com/analytics/answer/11397207).
 
-#### Third-party cookies
+#### Local Storage
 
-Third-party cookies are from domains distinct from ours and serve various functions.
+Local Storage is a method of storing data locally in your browser. It is similar to cookies, but has a higher capacity and does not send data to the server with every request.
 
-- Our Services use a third-party comments service via the giscus organization (as mentioned above) which, if you sign in using GitHub, stores a server-encrypted token in your browser's local storage to facilitate authenticated requests to the GitHub API, allowing you to remain signed in; for more details, please refer to the [giscus Privacy Policy](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md) and [GitHub's Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).
+- Our site uses local storage to record your theme preference (system, light or dark) to enhance your browsing experience.
+- Our Services use giscus (as mentioned above) which, if you sign in using GitHub, stores a server-encrypted token in your browser's local storage to facilitate authenticated requests to the GitHub API, allowing you to remain signed in; for more details, please refer to the [giscus Privacy Policy](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md) and [GitHub's Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).
 
 ### Security
 
