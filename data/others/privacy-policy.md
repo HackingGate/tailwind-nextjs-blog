@@ -91,9 +91,9 @@ Functional cookies are necessary to help our Services to work as intended.
 
 - Our site uses a functional cookie to record your theme preference (system, light or dark) to enhance your browsing experience.
 
-#### First-Party Cookies
+#### Analytics cookies
 
-First-Party Cookies are cookies set with the same domain (or its subdomain) as your browser's address bar.
+Analytics cookies collect information about your use of our Services and enable us to improve the way they work.
 
 - Our Services use Google Analytics (as mentioned above) to collect analytics data. You can opt-out of this service by using a script blocker to block [https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN](https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN), or a domain blocker to block [https://www.googletagmanager.com](https://www.googletagmanager.com). You can learn more about Google Analytics cookies [here](https://support.google.com/analytics/answer/11397207).
 
