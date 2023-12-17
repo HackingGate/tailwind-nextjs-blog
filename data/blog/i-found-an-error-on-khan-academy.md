@@ -14,6 +14,8 @@ There was the following problem:
 > Do not round your answer.  
 > 64 + 32 + 16 + ...
 
+## Solving the problem
+
 I started by calculating using the formula for the sum of a finite geometric series (which I learned in this [video](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:series/x9e81a4f98389efdf:geo-series/v/deriving-formula-for-sum-of-finite-geometric-series))
 
 $$
@@ -55,6 +57,8 @@ I looked at the Khan Academy's app and submitted the simplest form I got, which 
 
 I opened the hint and checked all my steps are correct but the final result said by Khan Academy is 127.75.
 
+## Trying other methods
+
 I tried to ask it on ChatGPT and got 127.75 too. Here is the Python Code ChatGPT used:
 
 ```python
@@ -87,3 +91,56 @@ float(sum_of_series_decimal)  # Convert back to float for the final result displ
 ```
 
 And got `127.75` as the result.
+
+I tried [WolframAlpha](https://www.wolframalpha.com/input?i2d=true&i=128-%5C%2840%29Divide%5B1%2C256%5D%5C%2841%29) and got `127.99609375`.
+Which is better than my scientific calculator that it does not round the answer.
+
+$$\frac{1}{256}$$ is $$0.00390625$$, not $$0.25$$, why is it `127.75`, how did that error happen?
+
+## Wait, it's not a floating point error
+
+$$\frac{1}{256}$$ can be converted to a **finite binary number** with the following steps:
+
+$$ 0.00390625 \times 2 = 0.0078125 $$, take the integer part: 0  
+$$ 0.00781250 \times 2 = 0.0156250 $$, take the integer part: 0  
+$$ 0.01562500 \times 2 = 0.0312500 $$, take the integer part: 0  
+$$ 0.03125000 \times 2 = 0.0625000 $$, take the integer part: 0  
+$$ 0.06250000 \times 2 = 0.1250000 $$, take the integer part: 0  
+$$ 0.12500000 \times 2 = 0.2500000 $$, take the integer part: 0  
+$$ 0.25000000 \times 2 = 0.5000000 $$, take the integer part: 0  
+$$ 0.50000000 \times 2 = 1.0000000 $$, take the integer part: 1  
+
+The result is `0.00000001`, which is `0.00390625` in binary.
+
+To verify if I'm calculated correctly, we can use the following formula to convert a binary number back to decimal:
+
+$$
+\text{Decimal Value} = \sum_{n=1}^{\infty} d_n \times 2^{-n}
+$$
+
+where $$d_n$$ is the $$n$$th digit of the binary number.
+
+Only the eighth digit after the decimal point is 1, so the decimal value is $$2^{-8}$$, which is $$\frac{1}{256}$$.
+
+## Why is it `127.75`
+
+If it's not a floating point error, it could be a rounding error due to limited digits of the data type.
+
+To verify my hypothesis, I tried to calculate from the simplest form all the way back up to locate the error.
+
+```python 
+
+```python
+>>> 128-1/256
+127.99609375
+>>> 128-2/512
+127.99609375
+>>> 128-2/2**9
+127.99609375
+>>> (64-1/2**9)/(1/2)
+127.99609375
+>>> 64*(1-1/2**9)/(1-1/2)
+127.75
+>>> 64*(1-1/2**9)/(1/2)
+127.75
+```
