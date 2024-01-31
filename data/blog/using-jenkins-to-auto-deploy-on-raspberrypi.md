@@ -124,8 +124,6 @@ The Jenkins server and the webserver are the same server (Raspberry Pi 4). I can
 
 ### Allow Jenkins to use Docker
 
-```sh
-
 Add Jenkins to docker group
 
 ```sh
