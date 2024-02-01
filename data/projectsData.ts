@@ -4,8 +4,7 @@ const projectsData = [
     description: `A list of countries and their IP blocks in CIDR notation.
     Updated by GitHub actions everyday. The list is hosted on GitHub Pages
     and can be used for IP filtering. Source code for generating the list is also available.`,
-    imgSrc:
-      'https://camo.githubusercontent.com/c83b2170dab1f9c7cf1bdb85b854c3aa8fe30167c16dac9cf23b2027be7fde86/68747470733a2f2f7777772e69616e612e6f72672f5f696d672f323031332e312f7269722d6d61702e737667',
+    imgSrc: 'https://www.iana.org/_img/2013.1/rir-map.svg',
     href: 'https://github.com/HackingGate/Country-IP-Blocks',
   },
   {
