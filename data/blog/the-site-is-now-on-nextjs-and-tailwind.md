@@ -1,7 +1,7 @@
 ---
 title: The site is now on Next.js and Tailwind
 date: '2023-09-28'
-tags: [Next.js, Tailwind, Cloudflare Pages, Cloudflare CDN, GitHub, CC BY-SA 4.0, umami, giscus]
+tags: [Next.js, Tailwind, Cloudflare Pages, Cloudflare CDN, GitHub, umami, giscus]
 type: Blog
 ---
 
