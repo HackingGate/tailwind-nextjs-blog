@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-date: '2023-11-11'
+date: '2024-12-29'
 tags: []
 type: Other
 ---
@@ -31,10 +31,10 @@ Here is the list of personal and non-personal data that we process and/or collec
 
 **Comments (personal data):** for users who comment on our website. Comment feature is provided by giscus. Comments are public and visiable to other users. **Data Processors:** giscus organization, GitHub.
 
-**Analytics (non-personal data):** we use a self-hosting umami instance and Google Analytics to collect analytics data.
-If you have JavaScript enabled, umami and Google Analytics collects information about your device and browser for analytics purposes.
+**Analytics (non-personal data):** we use a self-hosting Umami instance on Vercel connected to a Supabase database hosted in the EU (eu-central-1, Frankfurt, Germany) and Google Analytics to collect analytics data.
+If you have JavaScript enabled, Umami and Google Analytics collect information about your device and browser for analytics purposes.
 To opt-out of this service, use a script blocker to block [https://umami.hackinggate.com/script.js](https://umami.hackinggate.com/script.js) and [https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN](https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN)
-, or a domain blocker to block [https://umami.hackinggate.com](https://umami.hackinggate.com) and [https://www.googletagmanager.com](https://www.googletagmanager.com). **Data Processors:** umami, Supabase, Vercel, Google Analytics.
+, or a domain blocker to block [https://umami.hackinggate.com](https://umami.hackinggate.com) and [https://www.googletagmanager.com](https://www.googletagmanager.com). **Data Processors:** Supabase, Vercel, Google Analytics.
 
 ### Data Processors
 
@@ -60,18 +60,13 @@ Privacy Statement: [https://docs.github.com/en/github/site-policy/github-privacy
 
 #### Google Analytics
 
-Website: [https://analytics.google.com](https://analytics.google.com)
+Website: [https://analytics.google.com](https://analytics.google.com)  
 Privacy Policy: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
 #### Supabase
 
 Website: [https://supabase.io](https://supabase.io)  
 Privacy Policy: [https://supabase.io/privacy](https://supabase.io/privacy)
-
-#### umami
-
-Website: [https://umami.is](https://umami.is)  
-Privacy Policy: [https://umami.is/privacy](https://umami.is/privacy)
 
 #### Vercel
 
