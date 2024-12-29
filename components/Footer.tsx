@@ -28,6 +28,8 @@ export default function Footer() {
           <div>{` • `}</div>
           <Link href={siteMetadata.siteRepo}>Built with Next.js</Link>
           <div>{` • `}</div>
+          <Link href={'/privacy'}>Privacy Policy</Link>
+          <div>{` • `}</div>
           <Link href={'/feed.xml'}>RSS Feed</Link>
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
