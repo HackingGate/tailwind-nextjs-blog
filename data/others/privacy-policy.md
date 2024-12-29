@@ -5,36 +5,35 @@ tags: []
 type: Other
 ---
 
-This Privacy Policy describes the policies of HackingGate ("us", "we" or "our") regarding the information we collect or receive about our customers. It is applicable to our website, applications and other products and services collectively as "Services".
+This Privacy Policy describes the policies of HackingGate ("us," "we," or "our") regarding the information we collect or receive about our customers. It is applicable to our website, applications, and other products and services collectively referred to as "Services."
 
-Below we explain how we collect and use data about you.
+Below, we explain how we collect and use data about you.
 
 ### Data Collection
 
-We differentiate personal and non-personal data. Personal data is information that can be used to identify an individual. Non-personal data is information that cannot be used just by itself to identify an individual.
+We differentiate between personal and non-personal data. Personal data is information that can be used to identify an individual. Non-personal data is information that cannot be used by itself to identify an individual.
 
-We do not share your data with anyone except for the data processors listed below, and to comply with the law or to protect our rights.
+We do not share your data with anyone except for the data processors listed below and to comply with the law or to protect our rights.
 
 Here is the list of personal and non-personal data that we process and/or collect, who is actually collecting it, why it is collected, how it is used, and who it is shared with.
 
-**Contractual Information (personal data):** for users who purchase our apps directly through Apple (App Store, Volume Purchase Program), we do not collect and do not have access to your customer data (Apple manages it directly). **Data Processor:** Apple.
+**Contractual Information (personal data):** For users who purchase our apps directly through Apple (App Store, Volume Purchase Program), we do not collect or have access to your customer data (Apple manages it directly). **Data Processor:** Apple.
 
-**User-Generated Content (personal data):** we do not collect user-generated content. Our apps may access, process, update your local/cloud storage data on your behalf. No sharing of personal data is performed without user consent other than through specific user-initiated actions. Your data can be accessed/exported either directly from our apps, or directly with the service provider. **Data Processor:** Apple.
+**User-Generated Content (personal data):** We do not collect user-generated content. Our apps may access, process, and update your local/cloud storage data on your behalf. No sharing of personal data is performed without user consent other than through specific user-initiated actions. Your data can be accessed/exported either directly from our apps or directly with the service provider. **Data Processor:** Apple.
 
-**Information when use our Websites, Web Applications, and APIs (non-personal data):** we use Cloudflare to serve our websites, web applications, and APIs. When you use our web services or APIs, you are one of the [End Users defined by Cloudflare](https://www.cloudflare.com/privacypolicy/). Click that link to see what information Cloudflare collect. **Data Processor:** Cloudflare.
+**Information when using our Websites, Web Applications, and APIs (non-personal data):** We use Cloudflare to serve our websites, web applications, and APIs. When you use our web services or APIs, you are one of the [End Users defined by Cloudflare](https://www.cloudflare.com/privacypolicy/). Click that link to see what information Cloudflare collects. **Data Processor:** Cloudflare.
 
-**Support Mails (personal data):** we provide support by email. Users can contact us through our support email addresses to request support about our Services. **Data Processor:** Apple.
+**Support Mails (personal data):** We provide support by email. Users can contact us through our support email addresses to request support about our Services. **Data Processor:** Apple.
 
-**Email Address (personal data):** email addresses, as part of Contractual Information and Support Mails, are detailed above. **Data Processor:** Apple.
+**Email Address (personal data):** Email addresses, as part of Contractual Information and Support Mails, are detailed above. **Data Processor:** Apple.
 
-**Reviews (personal data):** for users who write reviews on App Store. Review feature is provided by Apple. Reviews are public and visiable to other users. **Data Processor:** Apple.
+**Reviews (personal data):** For users who write reviews on the App Store, the review feature is provided by Apple. Reviews are public and visible to other users. **Data Processor:** Apple.
 
-**Comments (personal data):** for users who comment on our website. Comment feature is provided by giscus. Comments are public and visiable to other users. **Data Processors:** giscus organization, GitHub.
+**Comments (personal data):** For users who comment on our website, the comment feature is provided by giscus. Comments are public and visible to other users. **Data Processors:** giscus organization, GitHub.
 
-**Analytics (non-personal data):** we use a self-hosting Umami instance on Vercel connected to a Supabase database hosted in the EU (eu-central-1, Frankfurt, Germany) and Google Analytics to collect analytics data.
-If you have JavaScript enabled, Umami and Google Analytics collect information about your device and browser for analytics purposes.
-To opt-out of this service, use a script blocker to block [https://umami.hackinggate.com/script.js](https://umami.hackinggate.com/script.js) and [https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN](https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN)
-, or a domain blocker to block [https://umami.hackinggate.com](https://umami.hackinggate.com) and [https://www.googletagmanager.com](https://www.googletagmanager.com). **Data Processors:** Supabase, Vercel, Google Analytics.
+**Analytics (non-personal data):** We use a self-hosted Umami instance on Vercel connected to a Supabase database hosted in the EU (eu-central-1, Frankfurt, Germany) and Google Analytics to collect analytics data.  
+If you have JavaScript enabled, Umami and Google Analytics collect information about your device and browser for analytics purposes.  
+To opt out of this service, use a script blocker to block [https://umami.hackinggate.com/script.js](https://umami.hackinggate.com/script.js) and [https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN](https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN), or a domain blocker to block [https://umami.hackinggate.com](https://umami.hackinggate.com) and [https://www.googletagmanager.com](https://www.googletagmanager.com). **Data Processors:** Supabase, Vercel, Google Analytics.
 
 ### Data Processors
 
@@ -75,23 +74,21 @@ Privacy Policy: [https://vercel.com/legal/privacy-policy](https://vercel.com/leg
 
 ### Cookie and Local Storage
 
-#### Strictly Necessary cookies
+#### Strictly Necessary Cookies
 
 Strictly Necessary cookies are essential to providing our Services to you and cannot be turned off.
-- Our service provider Cloudflare (as mentioned above) may place bot detection cookies (such as "_cf_bm"), cookies for CAPTCHA products (like cf_chl_prog, cf_clearance, cf_chl_cc_XXX, cf_chl_seq_XXX, cf_chl_rc_i and cf_chl_rc_ni), and a load balancing cookie (_cflb) on the computers of visitors to our Services. Cloudflare do this in order to identify malicious visitors to our Services, to assist with web-traffic filtration, and to reduce the chance of blocking legitimate users. You can learn more about these cookies [here](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/). You cannot turn off Strictly Necessary cookies.
+- Our service provider Cloudflare (as mentioned above) may place bot detection cookies (such as "_cf_bm"), cookies for CAPTCHA products (like cf_chl_prog, cf_clearance, cf_chl_cc_XXX, cf_chl_seq_XXX, cf_chl_rc_i, and cf_chl_rc_ni), and a load balancing cookie (_cflb) on the computers of visitors to our Services. Cloudflare does this in order to identify malicious visitors to our Services, to assist with web traffic filtration, and to reduce the chance of blocking legitimate users. You can learn more about these cookies [here](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/). You cannot turn off Strictly Necessary cookies.
 
-#### Analytics cookies
+#### Analytics Cookies
 
 Analytics cookies collect information about your use of our Services and enable us to improve the way they work.
-
-- Our Services use Google Analytics (as mentioned above) to collect analytics data. You can opt-out of this service by using a script blocker to block [https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN](https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN), or a domain blocker to block [https://www.googletagmanager.com](https://www.googletagmanager.com). You can learn more about Google Analytics cookies [here](https://support.google.com/analytics/answer/11397207).
+- Our Services use Google Analytics (as mentioned above) to collect analytics data. You can opt out of this service by using a script blocker to block [https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN](https://www.googletagmanager.com/gtag/js?id=G-KH8KBJD6HN), or a domain blocker to block [https://www.googletagmanager.com](https://www.googletagmanager.com). You can learn more about Google Analytics cookies [here](https://support.google.com/analytics/answer/11397207).
 
 #### Local Storage
 
-Local Storage is a method of storing data locally in your browser. It is similar to cookies, but has a higher capacity and does not send data to the server with every request.
-
-- Our site uses local storage to record your theme preference (system, light or dark) to enhance your browsing experience.
-- Our Services use giscus (as mentioned above) which, if you sign in using GitHub, stores a server-encrypted token in your browser's local storage to facilitate authenticated requests to the GitHub API, allowing you to remain signed in; for more details, please refer to the [giscus Privacy Policy](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md) and [GitHub's Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).
+Local Storage is a method of storing data locally in your browser. It is similar to cookies but has a higher capacity and does not send data to the server with every request.
+- Our site uses local storage to record your theme preference (system, light, or dark) to enhance your browsing experience.
+- Our Services use giscus (as mentioned above), which, if you sign in using GitHub, stores a server-encrypted token in your browser's local storage to facilitate authenticated requests to the GitHub API, allowing you to remain signed in; for more details, please refer to the [giscus Privacy Policy](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md) and [GitHub's Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).
 
 ### Security
 
