@@ -54,7 +54,14 @@ sudo netstat -tulpn | grep LISTEN
 
 Let's change the port to a number that is not in use. (In my case, I changed it to 8087)
 
-https://stackoverflow.com/a/71694335/4063462
+https://stackoverflow.com/a/71533015/4063462
+
+Edit `/etc/systemd/system/jenkins.service.d/override.conf`
+
+```/etc/systemd/system/jenkins.service.d/override.conf
+[Service]
+Environment="JENKINS_PORT=8087"
+```
 
 Reload systemd.
 
