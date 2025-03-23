@@ -111,3 +111,4 @@ cf-terraforming generate -e '<Cloudflare_Email>' \
 
 ## Conclusion
 
+I noticed not all functionality supported by the Cloudflare provider for Terraform, the state will not be read when I try to run `terraform plan` or `terraform apply` and I have to manually delete the resource from the Cloudflare dashboard and re-run `terraform apply` to create the resource again.
