@@ -5,7 +5,7 @@ lastmod: "2023-01-26"
 tags: [zsh, oh-my-zsh, starship, macOS, Ubuntu]
 type: Blog
 draft: false
-summary: "A guide to creating a customized terminal environment with oh-my-zsh, powerline fonts, and color schemes for improved productivity and aesthetics in command-line workflows."
+summary: "A guide to setting up a stylish and efficient terminal with Zsh, Oh My Zsh plugins, Starship prompt, and Nerd Fonts, complete with instructions for both macOS and Ubuntu."
 license: CC BY-SA 4.0
 ---
 Using your shell with Oh My Zsh and Starship on macOS
