@@ -1,11 +1,13 @@
 ---
-title: GNU/Linux Tar Command Cheat Sheet
-date: '2019-07-10'
+title: "GNU/Linux Tar Command Cheat Sheet"
+date: "2019-07-10"
+lastmod: "2019-07-10"
 tags: [Tar, GNU, Linux, Archive, Compress, gzip, bzip2, xz]
 type: Blog
+draft: false
+summary: "A comprehensive cheat sheet for the GNU/Linux tar command, covering essential options for archiving and compression operations with gzip, bzip2, and xz formats, with practical examples for both basic and advanced usage."
 license: CC BY-SA 4.0
 ---
-
 ## Archive Only (no compress)
 
 - -c for Create a tarball, archive, (c mode)
@@ -70,4 +72,3 @@ tar -cvzf files.tar.gz file{1..5}
 tar -xvf files.tar.gz
 cat file{1..5}
 ```
-

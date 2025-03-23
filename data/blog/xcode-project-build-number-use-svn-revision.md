@@ -1,11 +1,13 @@
 ---
-title: Xcode project build number use svn revision
-date: '2015-09-03'
+title: "Xcode project build number use svn revision"
+date: "2015-09-03"
+lastmod: "2015-09-03"
 tags: [Xcode, SVN, build number, script]
 type: Blog
+draft: false
+summary: "How to automatically set your Xcode project's build number using SVN revision numbers, ensuring consistent version tracking and simplifying the iOS app release management process."
 license: CC BY-SA 4.0
 ---
-
 I wrote a script auto read svn revision number and replace Xcode project build number.
 
 Select the project under **TARGETS** then click the **+** on top-left conor

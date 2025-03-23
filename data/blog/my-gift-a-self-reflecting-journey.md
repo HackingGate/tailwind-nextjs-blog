@@ -1,11 +1,13 @@
 ---
-title: My Gift - A self-reflecting journey
-date: '2023-10-27'
+title: "My Gift - A self-reflecting journey"
+date: "2023-10-27"
+lastmod: "2023-10-27"
 tags: [Gift, Self-reflecting]
 type: Blog
+draft: false
+summary: "A personal reflection on professional growth, challenges overcome, and lessons learned throughout a software engineering career, with insights on continuous self-improvement and embracing change."
 license: CC BY-NC-ND 4.0
 ---
-
 ## Starting thinking about my gift
 
 After playing Life is Strange, one of my favorite video game series. I notice every main character has their own gift, discovered during their life journey. Their gift appears after a special event, and most likely, developed during a time of childhood trauma etc.

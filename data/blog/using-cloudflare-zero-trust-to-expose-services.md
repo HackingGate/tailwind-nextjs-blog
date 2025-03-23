@@ -1,12 +1,13 @@
 ---
-title: Using Cloudflare Zero Trust to expose services
-date: '2023-09-29'
+title: "Using Cloudflare Zero Trust to expose services"
+date: "2023-09-29"
+lastmod: "2023-09-29"
 tags: [Cloudflare, Zero Trust Network, SSH, HTTP]
 type: Blog
+draft: false
+summary: "A practical guide to using Cloudflare Zero Trust and Cloudflare Tunnels to securely expose home services like SSH and HTTP to the internet, with step-by-step instructions for authentication setup and access configuration."
 license: CC BY-SA 4.0
 ---
-## Zero Trust Network
-
 Zero Trust Network has been hot these days. It's a new security model for the Internet to replace the old "castle-and-moat" model.
 
 The term "Zero Trust Network" means we don't trust anything by default in a network to have a better security level. So we have to verify everything before we trust it.

@@ -1,11 +1,13 @@
 ---
-title: Started to learn Russian
-date: '2021-03-28'
+title: "Started to learn Russian"
+date: "2021-03-28"
+lastmod: "2021-03-28"
 tags: [language, Russian]
 type: Blog
+draft: false
+summary: "An introductory guide to learning Russian that covers the Cyrillic alphabet, addresses pronunciation challenges, and provides essential resources for embracing Russian language and culture."
 license: CC BY-SA 4.0
 ---
-
 ## Russian alphabet (Алфавит)
 
 The [Russian alphabets](https://en.wikipedia.org/wiki/Russian_alphabet) Wikipedia

@@ -1,11 +1,13 @@
 ---
-title: Setup your fancy terminal
-date: '2023-01-26'
+title: "Setup your fancy terminal"
+date: "2023-01-26"
+lastmod: "2023-01-26"
 tags: [zsh, oh-my-zsh, starship, macOS, Ubuntu]
 type: Blog
+draft: false
+summary: "A guide to setting up a stylish and efficient terminal with Zsh, Oh My Zsh plugins, Starship prompt, and Nerd Fonts, complete with instructions for both macOS and Ubuntu."
 license: CC BY-SA 4.0
 ---
-
 Using your shell with Oh My Zsh and Starship on macOS
 
 Some use [fish shell](https://fishshell.com/) as it is an interactive, user-friendly, and modern shell. But it does not have POSIX sh compatibility. Using fish as your default shell could break part of your system. In this post, I will focus on zsh. With powerful plugins. You can have a powerful interactive interface.

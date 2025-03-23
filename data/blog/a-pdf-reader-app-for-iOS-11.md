@@ -1,8 +1,11 @@
 ---
-title: PDF Reader
-date: '2019-07-12'
+title: "PDF Reader"
+date: "2019-07-12"
+lastmod: "2019-07-12"
 tags: [PDF, reader, project, iOS, localization, RTL, CJK]
 type: Blog
+draft: false
+summary: "A PDF Reader app for iOS 11 with support for Right-to-Left reading mode for Arabic and vertical CJK text, along with iCloud sync for remembering the last viewed page across devices."
 license: CC BY-SA 4.0
 ---
 A PDF Reader app for iOS 11
@@ -55,4 +58,3 @@ After that. Open the same file on another device.
 - Cantonese (Traditional) 🇭🇰🇲🇴
 
 We are planning to add Arabic, Hebrew, Korean and other languages in the future.
-

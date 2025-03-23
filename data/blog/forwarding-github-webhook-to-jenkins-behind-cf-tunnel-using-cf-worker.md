@@ -1,11 +1,13 @@
 ---
-title: Forwarding GitHub webhook to Jenkins behind Cloudflare Tunnel using Cloudflare Worker
-date: '2024-02-01'
+title: "Forwarding GitHub webhook to Jenkins behind Cloudflare Tunnel using Cloudflare Worker"
+date: "2024-02-01"
+lastmod: "2024-02-01"
 tags: [Cloudflare, Jenkins, GitHub, Webhook, CloudflareTunnel, CloudflareWorker]
 type: Blog
+draft: false
+summary: "How to set up a Cloudflare Worker to forward GitHub webhooks to a Jenkins server behind Cloudflare Tunnel, enabling automatic builds without exposing Jenkins to the internet."
 license: CC BY-SA 4.0
 ---
-
 ## Background
 
 In a [previous post](/blog/using-jenkins-to-auto-deploy-on-raspberrypi), I have set up Jenkins on my Raspberry Pi to auto deploy my webservice when I push to GitHub. It uses Git Polling to check for changes every 3 minutes. It's not efficient. I want to use GitHub Webhook to trigger the build.

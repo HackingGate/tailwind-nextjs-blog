@@ -1,11 +1,13 @@
 ---
-title: Remap keys in OS X tutorial for Emacs lovers
-date: '2015-08-31'
+title: "Remap keys in OS X tutorial for Emacs lovers"
+date: "2015-08-31"
+lastmod: "2015-08-31"
 tags: [osx, emacs, keybinding]
 type: Blog
+draft: false
+summary: "A comprehensive guide to remapping keyboard keys in macOS for Emacs users, improving productivity with custom key bindings and modifiers that provide a more ergonomic editing experience."
 license: CC BY-SA 4.0
 ---
-
 ## Remap Caps Lock to Control
 
 Open `System Preferences`

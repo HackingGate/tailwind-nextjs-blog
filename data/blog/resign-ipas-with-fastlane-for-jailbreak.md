@@ -1,11 +1,13 @@
 ---
-title: Resign IPAs with Fastlane for Jailbreak
-date: '2019-06-10'
+title: "Resign IPAs with Fastlane for Jailbreak"
+date: "2019-06-10"
+lastmod: "2019-06-10"
 tags: [IPA, Jailbreak, iOS, fastlane, Xcode, Apple, Developer, Certificate, Provisioning Profile, App ID, Apple Configurator 2, Undecimus, Electra]
 type: Blog
+draft: false
+summary: "A comprehensive guide to resigning iOS IPA files using Fastlane for jailbreaking devices, covering certificate creation, provisioning, app modification, and installation."
 license: CC BY-SA 4.0
 ---
-
 ## Jailbreak tools
 
 [Undecimus](https://github.com/pwn20wndstuff/Undecimus): unc0ver jailbreak for iOS 11.0 - 12.1.2

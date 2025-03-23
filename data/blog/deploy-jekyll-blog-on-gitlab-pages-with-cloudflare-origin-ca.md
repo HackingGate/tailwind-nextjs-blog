@@ -1,11 +1,13 @@
 ---
-title: Deploy Jekyll blog on GitLab Pages with Cloudflare Origin CA
-date: '2019-06-09'
+title: "Deploy Jekyll blog on GitLab Pages with Cloudflare Origin CA"
+date: "2019-06-09"
+lastmod: "2019-06-09"
 tags: [Jekyll, GitLab, Cloudflare]
 type: Blog
+draft: false
+summary: "A guide to migrating from GitHub Pages to GitLab Pages with Cloudflare Origin CA certificates for end-to-end encryption, overcoming GitHub Pages limitations with custom certificates and GitLab CI."
 license: CC BY-SA 4.0
 ---
-
 I was using [GitHub Pages](https://pages.github.com) until Aug 2018.
 
 ## Why did I move to GitLab
@@ -108,4 +110,3 @@ pages:
 ```
 
 Push the changes to GitLab. You'll see a CI pipeline running. Once it's done. You're able to view your new site.
-

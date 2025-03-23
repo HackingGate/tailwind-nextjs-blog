@@ -1,11 +1,13 @@
 ---
-title: macOS Mojave's Dark Mode for Jekyll default theme minima
-date: '2019-03-31'
+title: "macOS Mojave's Dark Mode for Jekyll default theme minima"
+date: "2019-03-31"
+lastmod: "2019-03-31"
 tags: [macOS, Mojave, Dark Mode, Jekyll, minima]
 type: Blog
+draft: false
+summary: "Implementing macOS Mojave's Dark Mode support for Jekyll sites using the Minima theme, with CSS customizations that respect the user's system preference for a better reading experience."
 license: CC BY-SA 4.0
 ---
-
 We now supports macOS Mojave’s Dark Mode.
 
 If you are using latest macOS. Set your system appearance in Dark. You should see our site looks like this in Safari:

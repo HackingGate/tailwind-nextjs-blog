@@ -1,11 +1,13 @@
 ---
-title: Using Jenkins to auto deploy webservices on Raspberry Pi with Docker
-date: '2024-01-30'
+title: "Using Jenkins to auto deploy webservices on Raspberry Pi with Docker"
+date: "2024-01-30"
+lastmod: "2024-01-30"
 tags: [RaspberryPi, Jenkins, Docker]
 type: Blog
+draft: false
+summary: "Setting up Jenkins on a Raspberry Pi for continuous integration and deployment, automating the build and deployment process for web applications with practical configuration examples."
 license: CC BY-SA 4.0
 ---
-
 ## Background
 
 I have recently created a project called [Video Management Service](https://github.com/HackingGate/video-management-service) and deployed it on my Raspberry Pi 4.

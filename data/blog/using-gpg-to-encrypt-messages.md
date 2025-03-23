@@ -1,11 +1,13 @@
 ---
-title: Using GPG to Encrypt Messages
-date: '2019-07-09'
+title: "Using GPG to Encrypt Messages"
+date: "2019-07-09"
+lastmod: "2019-07-09"
 tags: [GPG, PGP, Encryption, Security, GitHub, Keybase, Key Server, Pub Key, Private Key, SSH, Git, Linux]
 type: Blog
+draft: false
+summary: "A practical guide to using GNU Privacy Guard (GPG) for encrypting and signing messages, managing keys, and protecting sensitive communications in an increasingly privacy-conscious digital world."
 license: CC BY-SA 4.0
 ---
-
 You might have been using GPG for years.  
 Do you often send encrypted messages to your friends?  
 Or maybe you don't even know your friend has a pub key.

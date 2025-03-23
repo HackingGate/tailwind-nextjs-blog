@@ -1,11 +1,13 @@
 ---
-title: Apps Fail to Get Wi-Fi Info on iOS 13
-date: '2019-06-12'
+title: "Apps Fail to Get Wi-Fi Info on iOS 13"
+date: "2019-06-12"
+lastmod: "2019-06-12"
 tags: [iOS 13, Wi-Fi, Privacy, Location, iOS]
 type: Blog
+draft: false
+summary: "How iOS 13 changes Wi-Fi information access requiring location permissions, affecting apps like Seven-Eleven Multicopy, and a solution for developers to adapt to these privacy changes."
 license: CC BY-SA 4.0
 ---
-
 I was using [Seven-Eleven Multicopy](https://itunes.apple.com/us/app/seven-eleven-multicopy/id982091927) this morning.
 
 My iPhone (iOS 13 Beta) is connected to Wi-Fi 711_MultiCopy.
@@ -33,4 +35,3 @@ I have created an iOS project [iOS13-WiFi-Info](https://github.com/HackingGate/i
 The solution does not require Xcode 11.
 
 So if you are the developer of [Seven-Eleven Multicopy](https://itunes.apple.com/us/app/seven-eleven-multicopy/id982091927) or any other iOS apps that need Wi-Fi info. Update your app as soon as possible.
-

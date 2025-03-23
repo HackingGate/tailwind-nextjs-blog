@@ -1,11 +1,13 @@
 ---
-title: Helloworld docker on OS X without boot2docker
-date: '2015-09-16'
+title: "Helloworld docker on OS X without boot2docker"
+date: "2015-09-16"
+lastmod: "2019-09-16"
 tags: [osx, linux, docker, virtualbox, boot2docker, docker-machine]
 type: Blog
+draft: false
+summary: "Running Docker containers on macOS without Boot2Docker, demonstrating a simpler approach to containerization on OS X with a Hello World example and step-by-step configuration."
 license: CC BY-SA 4.0
 ---
-
 ## 2019 Update
 
 I suggest to install GUI version of Docker in `brew cask` instead CLI version in `brew`.
