@@ -7,7 +7,6 @@ type: Blog
 draft: false
 summary: "A comprehensive guide to hosting multiple web services on the same port using a reverse proxy, dealing with SSL certificates, and overcoming common challenges with home hosting setups."
 ---
-
 ## Introduction and Problem Statement
 
 As my home hosting service increases and due to limitations of cloudflared reverse proxy, I need to run a full-fledged reverse proxy on my own. 
