@@ -23,7 +23,7 @@ So, with a single dedicated IPv4 and port 443 available, how can I run multiple 
 
 ### Initial Research
 
-The short answer: Multi-layer nginx servers. The upper layer of the nginx server will distribute traffic by SNI (no decryption required for viewing SNI, and SSL termination will be handled by the under-layer nginx server).
+The short answer: Multi-layer Nginx servers. The upper layer of the Nginx server will distribute traffic by SNI (no decryption required for viewing SNI, and SSL termination will be handled by the under-layer Nginx server).
 
 Nginx has a module for extracting SNI:
 https://nginx.org/en/docs/stream/ngx_stream_ssl_preread_module.html
@@ -36,7 +36,7 @@ My setup consists of:
 - Netgear 1Gbps Unmanaged L2 Switch
 - Various other machines running SSL web services (e.g., I run Code Server on my PC, but the PC is not always on, so I run other services on other machines)
 
-For the upper nginx server, I have two options:
+For the upper Nginx server, I have two options:
 - Netgear Nighthawk X4S R7800 (OpenWrt 23.05.5)
 - NanoPi R6S (Ubuntu 24.04.2)
 
@@ -106,7 +106,7 @@ A second tier longterm kernel should have approximately 2-3 years of longterm su
 
 ### Installing the latest Nginx version
 
-Since I'm using an Ubuntu-based Armbian build, I followed the Ubuntu instructions from nginx.org. With the stable nginx release channel, I installed nginx version 1.26.3-1~noble.
+Since I'm using an Ubuntu-based Armbian build, I followed the Ubuntu instructions from nginx.org. With the stable Nginx release channel, I installed Nginx version 1.26.3-1~noble.
 
 ### Authentication for Self-Hosted Services
 
@@ -115,7 +115,7 @@ My self-hosted Code Server isn't a public service. Previously, I used Cloudflare
 Looking at options suggested by Coder, I found OAuth2 Proxy, which has good Nginx integration:
 https://oauth2-proxy.github.io/oauth2-proxy/configuration/integration
 
-OAuth2 Proxy needs to see HTTP headers, so installing it on the same server doing SSL termination (the under-layer nginx server) is easiest.
+OAuth2 Proxy needs to see HTTP headers, so installing it on the same server doing SSL termination (the under-layer Nginx server) is easiest.
 
 Since Arm Linux isn't supported by linuxbrew yet, I used `goenv` (a go version manager) to install Go and then installed OAuth2 Proxy.
 
@@ -326,7 +326,7 @@ I later found that TLS-ALPN-01 can't issue certificates for wildcard domains, an
 CF_Token='' acme.sh --issue -d nanopi-r6s.hackinggate.com -d '*.nanopi-r6s.hackinggate.com' --dns dns_cf
 ```
 
-To reload Nginx on cert renewal (in a previous step I already removed sudo password requirement for reloading nginx).
+To reload Nginx on cert renewal (in a previous step I already removed sudo password requirement for reloading Nginx).
 
 ```bash
 acme.sh  --install-cert -d code-server-nanopi-r6s.hackinggate.com --reloadcmd "sudo systemctl reload nginx"
