@@ -2,7 +2,7 @@
 title: 'Hosting Multiple Web Servers Behind a Single IP Address'
 date: '2025-03-23'
 lastmod: '2025-03-23'
-tags: ['networking', 'web-hosting', 'reverse-proxy', 'ssl', 'self-hosting', 'haproxy', 'nginx']
+tags: ['Network', 'web-hosting', 'reverse-proxy', 'SSL', 'self-hosting', 'HAProxy', 'Nginx']
 type: Blog
 draft: false
 summary: "A comprehensive guide to hosting multiple web services on the same port of the same IPv4 address using a reverse proxy, managing SSL certificates, and overcoming common home-hosting challenges."
