@@ -5,7 +5,7 @@ lastmod: "2023-11-04"
 tags: [Terraform, Cloudflare, IaC, DNS]
 type: Blog
 draft: false
-summary: "How to import and manage existing Cloudflare configurations using Terraform, creating infrastructure as code for DNS records, page rules, and security settings for more maintainable cloud infrastructure."
+summary: "A guide to importing and managing existing Cloudflare configurations using Terraform, covering DNS records, tunnels, and access settings for streamlined infrastructure management."
 license: CC BY-SA 4.0
 ---
 ## Introduction
