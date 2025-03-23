@@ -5,7 +5,7 @@ lastmod: "2021-03-28"
 tags: [language, Russian]
 type: Blog
 draft: false
-summary: "A beginner's introduction to the Russian language, covering the Cyrillic alphabet, basic pronunciation, and essential vocabulary for new learners interested in Russian language and culture."
+summary: "An introductory guide to learning Russian that covers the Cyrillic alphabet, addresses pronunciation challenges, and provides essential resources for embracing Russian language and culture."
 license: CC BY-SA 4.0
 ---
 ## Russian alphabet (Алфавит)
