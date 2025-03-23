@@ -5,7 +5,7 @@ lastmod: "2019-06-11"
 tags: [iOS, Reveal, Jailbreak, iOS 12]
 type: Blog
 draft: false
-summary: "How to inspect and explore the view hierarchy of any iOS application on iOS 12 using Reveal, a powerful tool for UI debugging without requiring source code access or jailbreaking."
+summary: "How to inspect and explore the view hierarchy of any iOS application on iOS 12 using Reveal, a powerful tool for UI debugging without requiring source code access."
 license: CC BY-SA 4.0
 ---
 If you're an iOS Developer. You've probably heard of [Reveal](https://revealapp.com).
