@@ -1,5 +1,5 @@
 ---
-title: 'macOS Mojave's Dark Mode for Jekyll default theme minima'
+title: "macOS Mojave's Dark Mode for Jekyll default theme minima"
 date: "2019-03-31"
 lastmod: "2019-03-31"
 tags: [macOS, Mojave, Dark Mode, Jekyll, minima]
