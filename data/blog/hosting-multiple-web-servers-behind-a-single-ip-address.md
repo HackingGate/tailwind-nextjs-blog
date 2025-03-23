@@ -6,6 +6,7 @@ tags: ['Network', 'web-hosting', 'reverse-proxy', 'SSL', 'self-hosting', 'HAProx
 type: Blog
 draft: false
 summary: "A comprehensive guide to hosting multiple web services on the same port of the same IPv4 address using a reverse proxy, managing SSL certificates, and overcoming common home-hosting challenges."
+license: CC BY-SA 4.0
 ---
 ## Introduction and Problem Statement
 
