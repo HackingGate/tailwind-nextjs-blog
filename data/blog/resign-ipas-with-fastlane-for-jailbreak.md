@@ -5,7 +5,7 @@ lastmod: "2019-06-10"
 tags: [IPA, Jailbreak, iOS, fastlane, Xcode, Apple, Developer, Certificate, Provisioning Profile, App ID, Apple Configurator 2, Undecimus, Electra]
 type: Blog
 draft: false
-summary: "Using Fastlane to resign iOS IPA files for jailbroken devices, with a step-by-step workflow for app modification and distribution outside the App Store while maintaining app functionality."
+summary: "A comprehensive guide to resigning iOS IPA files using Fastlane for jailbreaking devices, covering certificate creation, provisioning, app modification, and installation."
 license: CC BY-SA 4.0
 ---
 ## Jailbreak tools
