@@ -5,8 +5,7 @@ lastmod: '2025-03-23'
 tags: ['networking', 'web-hosting', 'reverse-proxy', 'ssl', 'self-hosting', 'haproxy', 'nginx']
 type: Blog
 draft: false
-summary: 'A comprehensive guide to hosting multiple web services on the same port using a reverse proxy, dealing with SSL certificates, and overcoming common challenges with home hosting setups.'
-images: []
+summary: "A comprehensive guide to hosting multiple web services on the same port using a reverse proxy, dealing with SSL certificates, and overcoming common challenges with home hosting setups."
 ---
 
 ## Introduction and Problem Statement
@@ -124,10 +123,10 @@ Since Arm Linux isn't supported by linuxbrew yet, I used `goenv` (a go version m
 Login page
 ![Image](/static/images/oauth2-proxy-github-hackinggate.com.webp)
 
-Try login with email not allowed
+Try login with email not allowed (non hackinggate.com email)
 ![Image](/static/images/oauth2-proxy-403.webp)
 
-Try login with email allowed
+Try login with email allowed (hackinggate.com email)
 ![Image](/static/images/coder-server-welcome.webp)
 
 Test cookie expiry
