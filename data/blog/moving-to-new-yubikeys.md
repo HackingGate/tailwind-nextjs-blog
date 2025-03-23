@@ -2,7 +2,7 @@
 title: "Moving to new Yubikeys"
 date: "2021-12-05"
 lastmod: "2021-12-05"
-tags: [Yuibikey, OpenGPG, OTP]
+tags: [Yubikey, OpenGPG, OTP]
 type: Blog
 draft: false
 summary: "A guide to migrating GPG keys, FIDO U2F configurations, and other security credentials when switching to new YubiKeys, ensuring secure and smooth transition without compromising security."
