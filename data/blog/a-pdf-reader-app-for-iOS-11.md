@@ -1,7 +1,7 @@
 ---
-title: 'PDF Reader'
-date: '2019-07-12'
-lastmod: '2019-07-12'
+title: "PDF Reader"
+date: "2019-07-12"
+lastmod: "2019-07-12"
 tags: [PDF, reader, project, iOS, localization, RTL, CJK]
 type: Blog
 draft: false

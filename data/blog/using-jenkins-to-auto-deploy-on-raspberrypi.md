@@ -1,7 +1,7 @@
 ---
-title: 'Using Jenkins to auto deploy webservices on Raspberry Pi with Docker'
-date: '2024-01-30'
-lastmod: '2024-01-30'
+title: "Using Jenkins to auto deploy webservices on Raspberry Pi with Docker"
+date: "2024-01-30"
+lastmod: "2024-01-30"
 tags: [RaspberryPi, Jenkins, Docker]
 type: Blog
 draft: false

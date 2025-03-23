@@ -1,7 +1,7 @@
 ---
-title: 'Using GPG to Encrypt Messages'
-date: '2019-07-09'
-lastmod: '2019-07-09'
+title: "Using GPG to Encrypt Messages"
+date: "2019-07-09"
+lastmod: "2019-07-09"
 tags: [GPG, PGP, Encryption, Security, GitHub, Keybase, Key Server, Pub Key, Private Key, SSH, Git, Linux]
 type: Blog
 draft: false

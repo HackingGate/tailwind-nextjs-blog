@@ -1,7 +1,7 @@
 ---
-title: 'Started to learn Russian'
-date: '2021-03-28'
-lastmod: '2021-03-28'
+title: "Started to learn Russian"
+date: "2021-03-28"
+lastmod: "2021-03-28"
 tags: [language, Russian]
 type: Blog
 draft: false

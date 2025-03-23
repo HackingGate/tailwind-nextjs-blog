@@ -1,7 +1,7 @@
 ---
-title: 'Xcode project build number use svn revision'
-date: '2015-09-03'
-lastmod: '2015-09-03'
+title: "Xcode project build number use svn revision"
+date: "2015-09-03"
+lastmod: "2015-09-03"
 tags: [Xcode, SVN, build number, script]
 type: Blog
 draft: false

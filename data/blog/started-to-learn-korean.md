@@ -1,7 +1,7 @@
 ---
-title: 'Started to learn Korean'
-date: '2018-01-24'
-lastmod: '2018-01-24'
+title: "Started to learn Korean"
+date: "2018-01-24"
+lastmod: "2018-01-24"
 tags: [language, Korean]
 type: Blog
 draft: false

@@ -1,7 +1,7 @@
 ---
-title: 'GNU/Linux Tar Command Cheat Sheet'
-date: '2019-07-10'
-lastmod: '2019-07-10'
+title: "GNU/Linux Tar Command Cheat Sheet"
+date: "2019-07-10"
+lastmod: "2019-07-10"
 tags: [Tar, GNU, Linux, Archive, Compress, gzip, bzip2, xz]
 type: Blog
 draft: false

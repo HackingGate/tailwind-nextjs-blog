@@ -1,7 +1,7 @@
 ---
-title: 'Using Cloudflare Zero Trust to expose services'
-date: '2023-09-29'
-lastmod: '2023-09-29'
+title: "Using Cloudflare Zero Trust to expose services"
+date: "2023-09-29"
+lastmod: "2023-09-29"
 tags: [Cloudflare, Zero Trust Network, SSH, HTTP]
 type: Blog
 draft: false

@@ -1,7 +1,7 @@
 ---
-title: 'My Gift - A self-reflecting journey'
-date: '2023-10-27'
-lastmod: '2023-10-27'
+title: "My Gift - A self-reflecting journey"
+date: "2023-10-27"
+lastmod: "2023-10-27"
 tags: [Gift, Self-reflecting]
 type: Blog
 draft: false

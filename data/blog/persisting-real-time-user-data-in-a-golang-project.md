@@ -1,7 +1,7 @@
 ---
-title: 'Persisting Real-Time User Data in a Golang Project'
-date: '2023-10-01'
-lastmod: '2023-10-01'
+title: "Persisting Real-Time User Data in a Golang Project"
+date: "2023-10-01"
+lastmod: "2023-10-01"
 tags: [Golang, VPN, Delta, Database, Ticker, Gin, JSON, Swift]
 type: Blog
 draft: false

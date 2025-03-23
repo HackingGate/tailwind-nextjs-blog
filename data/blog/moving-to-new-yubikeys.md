@@ -1,7 +1,7 @@
 ---
-title: 'Moving to new Yubikeys'
-date: '2021-12-05'
-lastmod: '2021-12-05'
+title: "Moving to new Yubikeys"
+date: "2021-12-05"
+lastmod: "2021-12-05"
 tags: [Yuibikey, OpenGPG, OTP]
 type: Blog
 draft: false

@@ -1,7 +1,7 @@
 ---
-title: 'How to download Xcode with aria2c'
-date: '2015-10-01'
-lastmod: '2019-10-01'
+title: "How to download Xcode with aria2c"
+date: "2015-10-01"
+lastmod: "2019-10-01"
 tags: [Xcode, aria2, Mac, Apple, Cookie]
 type: Blog
 draft: false

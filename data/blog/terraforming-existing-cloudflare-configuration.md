@@ -1,7 +1,7 @@
 ---
-title: 'Terraforming Existing Cloudflare Configuration'
-date: '2023-11-04'
-lastmod: '2023-11-04'
+title: "Terraforming Existing Cloudflare Configuration"
+date: "2023-11-04"
+lastmod: "2023-11-04"
 tags: [Terraform, Cloudflare, IaC, DNS]
 type: Blog
 draft: false
@@ -111,4 +111,3 @@ cf-terraforming generate -e '<Cloudflare_Email>' \
 
 ## Conclusion
 
-I noticed not all functionality supported by the Cloudflare provider for Terraform, the state will not be read when I try to run `terraform plan` or `terraform apply` and I have to manually delete the resource from the Cloudflare dashboard and re-run `terraform apply` to create the resource again.

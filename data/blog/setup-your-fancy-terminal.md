@@ -1,7 +1,7 @@
 ---
-title: 'Setup your fancy terminal'
-date: '2023-01-26'
-lastmod: '2023-01-26'
+title: "Setup your fancy terminal"
+date: "2023-01-26"
+lastmod: "2023-01-26"
 tags: [zsh, oh-my-zsh, starship, macOS, Ubuntu]
 type: Blog
 draft: false

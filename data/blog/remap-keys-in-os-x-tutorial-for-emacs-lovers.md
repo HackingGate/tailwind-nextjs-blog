@@ -1,7 +1,7 @@
 ---
-title: 'Remap keys in OS X tutorial for Emacs lovers'
-date: '2015-08-31'
-lastmod: '2015-08-31'
+title: "Remap keys in OS X tutorial for Emacs lovers"
+date: "2015-08-31"
+lastmod: "2015-08-31"
 tags: [osx, emacs, keybinding]
 type: Blog
 draft: false

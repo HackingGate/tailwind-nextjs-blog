@@ -1,7 +1,7 @@
 ---
-title: 'Network Layer IP Address Blocking'
-date: '2021-08-15'
-lastmod: '2021-08-15'
+title: "Network Layer IP Address Blocking"
+date: "2021-08-15"
+lastmod: "2021-08-15"
 tags: [Network, IP, DNS, OpenWrt, Pi-Hole, WireGuard]
 type: Blog
 draft: false

@@ -1,7 +1,7 @@
 ---
-title: 'Resign IPAs with Fastlane for Jailbreak'
-date: '2019-06-10'
-lastmod: '2019-06-10'
+title: "Resign IPAs with Fastlane for Jailbreak"
+date: "2019-06-10"
+lastmod: "2019-06-10"
 tags: [IPA, Jailbreak, iOS, fastlane, Xcode, Apple, Developer, Certificate, Provisioning Profile, App ID, Apple Configurator 2, Undecimus, Electra]
 type: Blog
 draft: false

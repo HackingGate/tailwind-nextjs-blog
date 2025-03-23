@@ -1,7 +1,7 @@
 ---
-title: 'Forwarding GitHub webhook to Jenkins behind Cloudflare Tunnel using Cloudflare Worker'
-date: '2024-02-01'
-lastmod: '2024-02-01'
+title: "Forwarding GitHub webhook to Jenkins behind Cloudflare Tunnel using Cloudflare Worker"
+date: "2024-02-01"
+lastmod: "2024-02-01"
 tags: [Cloudflare, Jenkins, GitHub, Webhook, CloudflareTunnel, CloudflareWorker]
 type: Blog
 draft: false
