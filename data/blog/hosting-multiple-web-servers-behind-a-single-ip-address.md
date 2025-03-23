@@ -5,19 +5,19 @@ lastmod: '2025-03-23'
 tags: ['networking', 'web-hosting', 'reverse-proxy', 'ssl', 'self-hosting', 'haproxy', 'nginx']
 type: Blog
 draft: false
-summary: "A comprehensive guide to hosting multiple web services on the same port using a reverse proxy, dealing with SSL certificates, and overcoming common challenges with home hosting setups."
+summary: "A comprehensive guide to hosting multiple web services on the same port of the same IPv4 address using a reverse proxy, managing SSL certificates, and overcoming common home-hosting challenges."
 ---
 ## Introduction and Problem Statement
 
-As my home hosting service increases and due to limitations of cloudflared reverse proxy, I need to run a full-fledged reverse proxy on my own. 
+As my home hosting needs grow, I’ve encountered limitations with cloudflared's reverse proxy. To overcome these, I decided to deploy a full-fledged reverse proxy on my own.
 
-I have one ISP line at my home, and the ISP provides me a dedicated IPv4 address, which means I have one 443 port available (necessary for hosting websites over SSL). 
+I have a single ISP connection at home, which provides me with a dedicated IPv4 address. This means I have one port (443) available, which is essential for hosting websites over SSL.
 
-> **Disclaimer 1**: Port 443 may not be available for some home ISPs even if you have a dedicated IP address. Some home ISPs are likely to ban certain ports like 25 to prevent you from sending spam emails, while in some countries 80/443 are banned because a license is required to run a website. If you are inconvenient to use an IPv4 address, consider using IPv6 if you have one, or get one on Hurricane Electric Free IPv6 Tunnel Broker, or just use cloudflared's tunnel, which may have some limitations.
->
-> **Disclaimer 2**: A dedicated IPv4 address means you and your neighbors are not sharing the same IP address, but it doesn't guarantee it's a static IP address. While data centers are likely to provide an IP that does not change, for ISPs at home, IPv4 addresses are commonly assigned DYNAMICALLY if you use PPPoE and can change often when your router restarts, unless you pay more to get the static one. To fix this, I can run a DDNS program to check and update my A DNS record, which is not a big issue for me.
+> **Disclaimer 1**: Some home ISPs may block port 443 even if you have a dedicated IP address. For example, they might block port 25 to prevent spam emails or restrict ports 80/443 in countries where a license is required to host a website. If using an IPv4 address is inconvenient, consider switching to IPv6 (if available), using Hurricane Electric’s Free IPv6 Tunnel Broker, or utilizing cloudflared's tunnel. However, each option has its limitations.
 
-So, I have a single dedicated IPv4, and I'm free to use port 443. How does running multiple web services on the same port work? The answer lies in using a reverse proxy with SNI (Server Name Indication) to distribute traffic.
+> **Disclaimer 2**: A dedicated IPv4 address ensures you are not sharing the same IP address with your neighbors, but it does not guarantee a static IP address. While data centers often provide static IPs, home ISPs typically assign dynamic IPs via PPPoE, which can change when your router restarts—unless you pay extra for a static IP. To address this, you can run a DDNS program to automatically update your A DNS record, which is a manageable solution for most users.
+
+So, with a single dedicated IPv4 and port 443 available, how can I run multiple web services on the same port? The solution lies in using a reverse proxy with SNI (Server Name Indication) to distribute traffic.
 
 ## The Journey to My Final Setup
 
