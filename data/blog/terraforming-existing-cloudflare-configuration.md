@@ -1,11 +1,13 @@
 ---
-title: Terraforming Existing Cloudflare Configuration
+title: 'Terraforming Existing Cloudflare Configuration'
 date: '2023-11-04'
+lastmod: '2023-11-04'
 tags: [Terraform, Cloudflare, IaC, DNS]
 type: Blog
+draft: false
+summary: "How to import and manage existing Cloudflare configurations using Terraform, creating infrastructure as code for DNS records, page rules, and security settings for more maintainable cloud infrastructure."
 license: CC BY-SA 4.0
 ---
-
 ## Introduction
 
 Terraform, a popular IaC (Infrastructure as code) tool to foster the ease of infrastructure management and reduces human errors. Terraform as a tool supports many providers such as the major three cloud providers (AWS, Azure, GCP), and many more. In this blog post, we will be focusing on the Cloudflare provider and how to use it to manage your Cloudflare configuration.

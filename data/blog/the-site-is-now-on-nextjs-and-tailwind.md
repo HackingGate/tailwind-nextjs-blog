@@ -1,10 +1,12 @@
 ---
-title: The site is now on Next.js and Tailwind
+title: 'The site is now on Next.js and Tailwind'
 date: '2023-09-28'
+lastmod: '2023-09-28'
 tags: [Next.js, Tailwind, Cloudflare Pages, Cloudflare CDN, GitHub, umami, giscus]
 type: Blog
+draft: false
+summary: "A detailed explanation of migrating from Jekyll to Next.js and Tailwind CSS, with insights on hosting migration from GitLab Pages to Cloudflare Pages, open-source collaboration, and privacy-focused analytics implementation."
 ---
-
 I have migrated the site from Jekyll to Next.js and Tailwind. The new site is hosted on Cloudflare Pages and can be found at https://hackinggate.com.
 
 ## Breaking Changes

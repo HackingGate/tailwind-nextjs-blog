@@ -1,11 +1,13 @@
 ---
-title: Using Aircrack-ng with RTL8814AU
+title: 'Using Aircrack-ng with RTL8814AU'
 date: '2019-07-28'
+lastmod: '2019-07-28'
 tags: [Airmon-ng, Aircrack-ng, RTL8814AU, RTL8812AU, Wi-Fi, Kali Linux, Raspberry Pi, ARM]
 type: Blog
+draft: false
+summary: "Setting up and using Aircrack-ng wireless security tools with the RTL8814AU chipset on Linux, including driver installation, monitor mode configuration, and practical wireless testing applications."
 license: CC BY-SA 4.0
 ---
-
 For Kali Linux users who want to hack 2.4/5GHz Wi-Fi.
 RTL8812AU/21AU and RTL8814AU are the best chipsets.
 

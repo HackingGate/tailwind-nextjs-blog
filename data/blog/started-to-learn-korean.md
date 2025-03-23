@@ -1,11 +1,13 @@
 ---
-title: Started to learn Korean
+title: 'Started to learn Korean'
 date: '2018-01-24'
+lastmod: '2018-01-24'
 tags: [language, Korean]
 type: Blog
+draft: false
+summary: "An introduction to the Korean language (Hangul), explaining its alphabet structure, pronunciation rules, and basic concepts for beginners learning Korean, with insights on vowel and consonant combinations."
 license: CC BY-SA 4.0
 ---
-
 ## Korean alphabet
 
 The Korean alphabets are **Hangul(한글)**. All Hangul representing pronunciation. It’s like Kana in Japanese. There are about 70% Korean are **Hanja(한자/漢字/Han characters)**. Korean was written in a mixed Hanja-Hangul script (*like the mixed Kanji-Kana script that modern Japanese are using*), but modern Korean only uses Hangul in common.

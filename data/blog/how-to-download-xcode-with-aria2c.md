@@ -1,11 +1,13 @@
 ---
-title: How to download Xcode with aria2c
+title: 'How to download Xcode with aria2c'
 date: '2015-10-01'
+lastmod: '2019-10-01'
 tags: [Xcode, aria2, Mac, Apple, Cookie]
 type: Blog
+draft: false
+summary: "Using aria2c to download Xcode faster and more reliably than Apple's default download methods, with step-by-step instructions and performance optimization tips for developers."
 license: CC BY-SA 4.0
 ---
-
 ## 2019 Update
 
 If you use [fastlane](https://docs.fastlane.tools), you can download and manage Xcode versions by using [xcode-install](https://github.com/xcpretty/xcode-install).

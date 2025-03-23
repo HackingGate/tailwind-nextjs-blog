@@ -1,11 +1,13 @@
 ---
-title: Persisting Real-Time User Data in a Golang Project
+title: 'Persisting Real-Time User Data in a Golang Project'
 date: '2023-10-01'
+lastmod: '2023-10-01'
 tags: [Golang, VPN, Delta, Database, Ticker, Gin, JSON, Swift]
 type: Blog
+draft: false
+summary: "Techniques for persisting real-time user data in Go applications, addressing concurrency challenges, data consistency, and efficient storage solutions for modern web applications."
 license: CC BY-SA 4.0
 ---
-
 In a recent VPN project, I was tasked with implementing the backend system for the project.
 The backend system consists of two parts: 
 - VPN core for providing the VPN nodes and a few APIs for internal user states and stats management. Designed to be fault-tolerant and scalable.

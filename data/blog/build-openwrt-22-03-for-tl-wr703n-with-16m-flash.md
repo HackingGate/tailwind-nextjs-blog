@@ -1,8 +1,11 @@
 ---
-title: Build OpenWrt 22.03 for TL-WR703N with 16m flash
+title: 'Build OpenWrt 22.03 for TL-WR703N with 16m flash'
 date: '2023-09-30'
+lastmod: '2023-09-30'
 tags: [OpenWrt, tl-wr703n, ath79, ar71xx, 16m, make, build]
 type: Blog
+draft: false
+summary: "A guide to building OpenWrt 22.03 for TL-WR703N routers with 16MB flash, including source code modifications, build configuration, and installation instructions."
 license: CC BY-SA 4.0
 ---
 *The blog post has been updated on September 30, 2023. The original post was written on January 25, 2020 and can be found [here](https://hackinggate.gitlab.io/2020/01/25/build-openwrt-19-07-for-tl-wr703n.html).*

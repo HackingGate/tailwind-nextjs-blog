@@ -1,11 +1,13 @@
 ---
-title: Moving to new Yubikeys
+title: 'Moving to new Yubikeys'
 date: '2021-12-05'
+lastmod: '2021-12-05'
 tags: [Yuibikey, OpenGPG, OTP]
 type: Blog
+draft: false
+summary: "A guide to migrating GPG keys, FIDO U2F configurations, and other security credentials when switching to new YubiKeys, ensuring secure and smooth transition without compromising security."
 license: CC BY-SA 4.0
 ---
-
 My old Yubikey 5Ci was cracked. So I ordered a new Yubikey 5C NFC. Yubico sent me a wrong key Yubikey 5 NFC and the correct one later.
 
 Now I have 3 keys in total.
