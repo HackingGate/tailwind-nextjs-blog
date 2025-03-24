@@ -378,8 +378,6 @@ frontend https_front
     ## exact matches
     use_backend nanopi_back if { req.ssl_sni -m end nanopi-r6s.hackinggate.com }
     use_backend tuf_back if { req.ssl_sni -m end tuf.hackinggate.com }
-    use_backend raspberrypi_back if { req.ssl_sni -i swcdn.apple.com }
-    use_backend raspberrypi_back if { req.ssl_sni -i xray.hackinggate.com }
 
     # set default backend
     default_backend tuf_back
@@ -393,11 +391,6 @@ backend nanopi_back
 backend tuf_back
     mode tcp
     server tuf 192.168.4.51:443 weight 100 check
-
-# Backend for Xray Reality on Raspberry Pi
-backend raspberrypi_back
-    mode tcp
-    server raspberrypi 192.168.4.45:443 weight 100 check
 ```
 
 ### Final Nginx Configuration
