@@ -23,9 +23,9 @@ Here is the list of personal and non-personal data that we process and/or collec
 
 **Information when using our Websites, Web Applications, and APIs (non-personal data):** We use Cloudflare to serve our websites, web applications, and APIs. When you use our web services or APIs, you are one of the [End Users defined by Cloudflare](https://www.cloudflare.com/privacypolicy/). Click that link to see what information Cloudflare collects. **Data Processor:** Cloudflare.
 
-**Support Mails (personal data):** We provide support by email. Users can contact us through our support email addresses to request support about our Services. **Data Processor:** Apple.
+**Support Mails (personal data):** We provide support by email. Users can contact us through our support email addresses to request support about our Services. **Data Processor:** Cloudflare, Google, Thunderbird.
 
-**Email Address (personal data):** Email addresses, as part of Contractual Information and Support Mails, are detailed above. **Data Processor:** Apple.
+**Email Address (personal data):** Email addresses, as part of Contractual Information and Support Mails, are detailed above. **Data Processor:** Cloudflare, Google, Thunderbird.
 
 **Reviews (personal data):** For users who write reviews on the App Store, the review feature is provided by Apple. Reviews are public and visible to other users. **Data Processor:** Apple.
 
@@ -66,6 +66,11 @@ Privacy Policy: [https://policies.google.com/privacy](https://policies.google.co
 
 Website: [https://supabase.io](https://supabase.io)  
 Privacy Policy: [https://supabase.io/privacy](https://supabase.io/privacy)
+
+#### Thunderbird
+
+Website: [https://www.thunderbird.net/](https://www.thunderbird.net/)
+Privacy Policy: [https://www.thunderbird.net/privacy/](https://www.thunderbird.net/privacy/)
 
 #### Vercel
 
