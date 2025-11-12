@@ -69,7 +69,7 @@ Privacy Policy: [https://supabase.io/privacy](https://supabase.io/privacy)
 
 #### Thunderbird
 
-Website: [https://www.thunderbird.net/](https://www.thunderbird.net/)
+Website: [https://www.thunderbird.net/](https://www.thunderbird.net/)  
 Privacy Policy: [https://www.thunderbird.net/privacy/](https://www.thunderbird.net/privacy/)
 
 #### Vercel
