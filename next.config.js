@@ -1,16 +1,18 @@
-const { withContentlayer } = require('next-contentlayer2')
+import { withContentlayer } from 'next-contentlayer2'
+import bundleAnalyzer from '@next/bundle-analyzer'
 
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
+const withBundleAnalyzer = bundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
 })
 
 /**
  * @type {import('next/dist/next-server/server/config').NextConfig}
  **/
-module.exports = () => {
+export default () => {
   const plugins = [withContentlayer, withBundleAnalyzer]
   return plugins.reduce((acc, next) => next(acc), {
     reactStrictMode: true,
+    trailingSlash: false,
     pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
     eslint: {
       dirs: ['app', 'components', 'layouts', 'scripts'],
