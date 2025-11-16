@@ -22,18 +22,19 @@ echo -e "${BLUE}🎨 Generating favicons from ${SOURCE_SVG}...${NC}\n"
 
 # Create source SVG with explicit colors for ImageMagick
 # (ImageMagick can't process CSS media queries, so we need explicit fill colors)
+# Using 16x16 viewBox for better scaling to common sizes (16, 32, 48, 96, 192, 512, 1024)
 echo -e "${GREEN}✓${NC} Creating ${SOURCE_SVG} from favicon.svg"
 cat > "$SOURCE_SVG" << 'EOF'
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-<rect x="2" y="2" width="4" height="28" fill="#0085E8"/>
-<rect x="10" y="2" width="4" height="28" fill="#0085E8"/>
-<rect x="18" y="2" width="4" height="28" fill="#0085E8"/>
-<rect x="6" y="14" width="4" height="4" fill="#0085E8"/>
-<rect x="24" y="14" width="6" height="4" fill="#0085E8"/>
-<rect x="26" y="18" width="4" height="12" fill="#0085E8"/>
-<rect x="26" y="2" width="4" height="8" fill="#0085E8"/>
-<rect x="22" y="2" width="4" height="4" fill="#0085E8"/>
-<rect x="22" y="26" width="4" height="4" fill="#0085E8"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+<rect x="1" y="1" width="2" height="14" fill="#0085E8"/>
+<rect x="5" y="1" width="2" height="14" fill="#0085E8"/>
+<rect x="9" y="1" width="2" height="14" fill="#0085E8"/>
+<rect x="3" y="7" width="2" height="2" fill="#0085E8"/>
+<rect x="12" y="7" width="3" height="2" fill="#0085E8"/>
+<rect x="13" y="9" width="2" height="6" fill="#0085E8"/>
+<rect x="13" y="1" width="2" height="4" fill="#0085E8"/>
+<rect x="11" y="1" width="2" height="2" fill="#0085E8"/>
+<rect x="11" y="13" width="2" height="2" fill="#0085E8"/>
 </svg>
 EOF
 
@@ -75,19 +76,19 @@ magick "$FAVICON_DIR/favicon-16x16.png" \
   "$FAVICON_DIR/favicon.ico"
 
 echo -e "${GREEN}✓${NC} Generating avatar.png (1024x1024 with padding)"
-# Create avatar with 20% padding using a temporary SVG with proper viewBox
+# Create avatar with 20% padding using a temporary SVG with proper viewBox (20x20 = 16 + 4px padding)
 cat > "avatar-source.svg" << 'EOF'
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-<g transform="translate(4, 4)">
-<rect x="2" y="2" width="4" height="28" fill="#0085E8"/>
-<rect x="10" y="2" width="4" height="28" fill="#0085E8"/>
-<rect x="18" y="2" width="4" height="28" fill="#0085E8"/>
-<rect x="6" y="14" width="4" height="4" fill="#0085E8"/>
-<rect x="24" y="14" width="6" height="4" fill="#0085E8"/>
-<rect x="26" y="18" width="4" height="12" fill="#0085E8"/>
-<rect x="26" y="2" width="4" height="8" fill="#0085E8"/>
-<rect x="22" y="2" width="4" height="4" fill="#0085E8"/>
-<rect x="22" y="26" width="4" height="4" fill="#0085E8"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+<g transform="translate(2, 2)">
+<rect x="1" y="1" width="2" height="14" fill="#0085E8"/>
+<rect x="5" y="1" width="2" height="14" fill="#0085E8"/>
+<rect x="9" y="1" width="2" height="14" fill="#0085E8"/>
+<rect x="3" y="7" width="2" height="2" fill="#0085E8"/>
+<rect x="12" y="7" width="3" height="2" fill="#0085E8"/>
+<rect x="13" y="9" width="2" height="6" fill="#0085E8"/>
+<rect x="13" y="1" width="2" height="4" fill="#0085E8"/>
+<rect x="11" y="1" width="2" height="2" fill="#0085E8"/>
+<rect x="11" y="13" width="2" height="2" fill="#0085E8"/>
 </g>
 </svg>
 EOF

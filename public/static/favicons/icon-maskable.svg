@@ -11,16 +11,16 @@
 </style>
 <!-- Safe area background -->
 <rect class="bg" width="512" height="512"/>
-<!-- HG icon centered with 20% padding, scaled 12.8x (409.6/32) from original 32x32 -->
-<g transform="translate(51.2, 51.2) scale(12.8)">
-  <rect class="icon" x="2" y="2" width="4" height="28"/>
-  <rect class="icon" x="10" y="2" width="4" height="28"/>
-  <rect class="icon" x="18" y="2" width="4" height="28"/>
-  <rect class="icon" x="6" y="14" width="4" height="4"/>
-  <rect class="icon" x="24" y="14" width="6" height="4"/>
-  <rect class="icon" x="26" y="18" width="4" height="12"/>
-  <rect class="icon" x="26" y="2" width="4" height="8"/>
-  <rect class="icon" x="22" y="2" width="4" height="4"/>
-  <rect class="icon" x="22" y="26" width="4" height="4"/>
+<!-- HG icon centered with 20% padding, scaled 25.6x (409.6/16) from 16x16 base -->
+<g transform="translate(51.2, 51.2) scale(25.6)">
+  <rect class="icon" x="1" y="1" width="2" height="14"/>
+  <rect class="icon" x="5" y="1" width="2" height="14"/>
+  <rect class="icon" x="9" y="1" width="2" height="14"/>
+  <rect class="icon" x="3" y="7" width="2" height="2"/>
+  <rect class="icon" x="12" y="7" width="3" height="2"/>
+  <rect class="icon" x="13" y="9" width="2" height="6"/>
+  <rect class="icon" x="13" y="1" width="2" height="4"/>
+  <rect class="icon" x="11" y="1" width="2" height="2"/>
+  <rect class="icon" x="11" y="13" width="2" height="2"/>
 </g>
 </svg>
