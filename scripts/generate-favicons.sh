@@ -9,9 +9,28 @@ PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 cd "$PROJECT_ROOT"
 
 # Colors for output
+RED='\033[0;31m'
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
+
+# Check for ImageMagick 7+
+if ! command -v magick &> /dev/null; then
+    echo -e "${RED}Error: ImageMagick 7+ is not installed${NC}"
+    echo "Please install ImageMagick 7 or later to use this script"
+    echo "Visit: https://imagemagick.org/script/download.php"
+    exit 1
+fi
+
+# Verify ImageMagick version is 7+
+MAGICK_VERSION=$(magick -version | head -n1 | grep -oP 'ImageMagick \K[0-9]+' || echo "0")
+if [ "$MAGICK_VERSION" -lt 7 ]; then
+    echo -e "${RED}Error: ImageMagick 7+ is required${NC}"
+    echo "Current version: $(magick -version | head -n1)"
+    echo "Please upgrade to ImageMagick 7 or later"
+    echo "Visit: https://imagemagick.org/script/download.php"
+    exit 1
+fi
 
 # Paths
 SOURCE_SVG="favicon-source.svg"
