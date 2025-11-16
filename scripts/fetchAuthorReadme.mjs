@@ -52,12 +52,13 @@ name: ${author.name}
 avatar: ${author.avatar}
 email: ${author.email}
 github: ${author.github}
+type: Authors
 ---
 ${content}
 [See full README.md](${data.html_url})  
 `
 
-      const filepath = path.join(process.cwd(), 'data', 'authors', `${author.slug}.mdx`)
+      const filepath = path.join(process.cwd(), 'data', 'authors', `${author.slug}.md`)
       await fs.writeFile(filepath, mdx)
     } catch (error) {
       console.log(error)

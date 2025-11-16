@@ -16,6 +16,7 @@ NC='\033[0m' # No Color
 # Paths
 SOURCE_SVG="favicon-source.svg"
 FAVICON_DIR="public/static/favicons"
+IMAGES_DIR="public/static/images"
 
 echo -e "${BLUE}🎨 Generating favicons from ${SOURCE_SVG}...${NC}\n"
 
@@ -73,9 +74,29 @@ magick "$FAVICON_DIR/favicon-16x16.png" \
   "$FAVICON_DIR/favicon-48x48.png" \
   "$FAVICON_DIR/favicon.ico"
 
-echo -e "\n${BLUE}✨ All favicons generated successfully!${NC}"
+echo -e "${GREEN}✓${NC} Generating avatar.png (1024x1024 with padding)"
+# Create avatar with 20% padding using a temporary SVG with proper viewBox
+cat > "avatar-source.svg" << 'EOF'
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+<g transform="translate(4, 4)">
+<rect x="2" y="2" width="4" height="28" fill="#0085E8"/>
+<rect x="10" y="2" width="4" height="28" fill="#0085E8"/>
+<rect x="18" y="2" width="4" height="28" fill="#0085E8"/>
+<rect x="6" y="14" width="4" height="4" fill="#0085E8"/>
+<rect x="24" y="14" width="6" height="4" fill="#0085E8"/>
+<rect x="26" y="18" width="4" height="12" fill="#0085E8"/>
+<rect x="26" y="2" width="4" height="8" fill="#0085E8"/>
+<rect x="22" y="2" width="4" height="4" fill="#0085E8"/>
+<rect x="22" y="26" width="4" height="4" fill="#0085E8"/>
+</g>
+</svg>
+EOF
+magick -background none -size 1024x1024 "avatar-source.svg" PNG32:"$IMAGES_DIR/avatar.png"
+rm -f "avatar-source.svg"
+
+echo -e "\n${BLUE}✨ All favicons and avatar generated successfully!${NC}"
 echo -e "\nGenerated files:"
-ls -lh "$FAVICON_DIR"/*.png "$FAVICON_DIR"/*.ico | awk '{printf "  %s (%s)\n", $9, $5}'
+ls -lh "$FAVICON_DIR"/*.png "$FAVICON_DIR"/*.ico "$IMAGES_DIR/avatar.png" 2>/dev/null | awk '{printf "  %s (%s)\n", $9, $5}'
 
 # Cleanup temporary source file
 echo -e "\n${GREEN}✓${NC} Cleaning up ${SOURCE_SVG}"
