@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<style>
+  @media (prefers-color-scheme: light) {
+    .bg { fill: #ffffff; }
+    .icon { fill: #0085E8; }
+  }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #0a0a0a; }
+    .icon { fill: #60A5FA; }
+  }
+</style>
+<!-- Safe area background -->
+<rect class="bg" width="512" height="512"/>
+<!-- HG icon centered with 20% padding, scaled 25.6x (409.6/16) from 16x16 base -->
+<g transform="translate(51.2, 51.2) scale(25.6)">
+  <rect class="icon" x="1" y="1" width="2" height="14"/>
+  <rect class="icon" x="5" y="1" width="2" height="14"/>
+  <rect class="icon" x="9" y="1" width="2" height="14"/>
+  <rect class="icon" x="3" y="7" width="2" height="2"/>
+  <rect class="icon" x="12" y="7" width="3" height="2"/>
+  <rect class="icon" x="13" y="9" width="2" height="6"/>
+  <rect class="icon" x="13" y="1" width="2" height="4"/>
+  <rect class="icon" x="11" y="1" width="2" height="2"/>
+  <rect class="icon" x="11" y="13" width="2" height="2"/>
+</g>
+</svg>
