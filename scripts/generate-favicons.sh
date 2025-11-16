@@ -51,20 +51,11 @@ magick +antialias -background none -size 48x48 "$SOURCE_SVG" PNG32:"$FAVICON_DIR
 echo -e "${GREEN}✓${NC} Generating android-chrome-96x96.png"
 magick +antialias -background none -size 96x96 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/android-chrome-96x96.png"
 
-echo -e "${GREEN}✓${NC} Generating apple-touch-icon.png (180x180)"
-magick +antialias -background none -size 180x180 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/apple-touch-icon.png"
-
 echo -e "${GREEN}✓${NC} Generating android-chrome-192x192.png"
 magick +antialias -background none -size 192x192 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/android-chrome-192x192.png"
 
 echo -e "${GREEN}✓${NC} Generating android-chrome-512x512.png"
 magick +antialias -background none -size 512x512 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/android-chrome-512x512.png"
-
-echo -e "${GREEN}✓${NC} Generating apple-touch-icon-152x152.png (iPad)"
-magick +antialias -background none -size 152x152 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/apple-touch-icon-152x152.png"
-
-echo -e "${GREEN}✓${NC} Generating mstile-150x150.png"
-magick +antialias -background none -size 150x150 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/mstile-150x150.png"
 
 echo -e "${GREEN}✓${NC} Generating icon-1024.png (future-proof)"
 magick +antialias -background none -size 1024x1024 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/icon-1024.png"
@@ -75,13 +66,12 @@ magick "$FAVICON_DIR/favicon-16x16.png" \
   "$FAVICON_DIR/favicon-48x48.png" \
   "$FAVICON_DIR/favicon.ico"
 
-echo -e "${GREEN}✓${NC} Generating avatar.png (1024x1024 with 18.75% padding)"
-# Create avatar with 18.75% padding using 64x64 viewBox (40x40 icon centered)
-# Icon is 2.5x scale of 16x16 base, with 12px padding each side
-# Clean 16x multiple: 1024/64 = 16x
+echo -e "${GREEN}✓${NC} Generating avatar.png (1000x1000 with 10% padding)"
+# Create avatar with 10% padding using 20x20 viewBox (16x16 icon centered with 2px padding)
+# Clean 50x multiple: 1000/20 = 50x
 cat > "avatar-source.svg" << 'EOF'
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<g transform="translate(12, 12) scale(2.5)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+<g transform="translate(2, 2)">
 <rect x="1" y="1" width="2" height="14" fill="#0085E8"/>
 <rect x="5" y="1" width="2" height="14" fill="#0085E8"/>
 <rect x="9" y="1" width="2" height="14" fill="#0085E8"/>
@@ -94,7 +84,7 @@ cat > "avatar-source.svg" << 'EOF'
 </g>
 </svg>
 EOF
-magick +antialias -background none -size 1024x1024 "avatar-source.svg" PNG32:"$IMAGES_DIR/avatar.png"
+magick +antialias -background none -size 1000x1000 "avatar-source.svg" PNG32:"$IMAGES_DIR/avatar.png"
 rm -f "avatar-source.svg"
 
 echo -e "\n${BLUE}✨ All favicons and avatar generated successfully!${NC}"
