@@ -75,11 +75,13 @@ magick "$FAVICON_DIR/favicon-16x16.png" \
   "$FAVICON_DIR/favicon-48x48.png" \
   "$FAVICON_DIR/favicon.ico"
 
-echo -e "${GREEN}✓${NC} Generating avatar.png (1024x1024 with padding)"
-# Create avatar with 20% padding using a temporary SVG with proper viewBox (20x20 = 16 + 4px padding)
+echo -e "${GREEN}✓${NC} Generating avatar.png (1024x1024 with 18.75% padding)"
+# Create avatar with 18.75% padding using 64x64 viewBox (40x40 icon centered)
+# Icon is 2.5x scale of 16x16 base, with 12px padding each side
+# Clean 16x multiple: 1024/64 = 16x
 cat > "avatar-source.svg" << 'EOF'
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-<g transform="translate(2, 2)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<g transform="translate(12, 12) scale(2.5)">
 <rect x="1" y="1" width="2" height="14" fill="#0085E8"/>
 <rect x="5" y="1" width="2" height="14" fill="#0085E8"/>
 <rect x="9" y="1" width="2" height="14" fill="#0085E8"/>
