@@ -89,10 +89,13 @@ cat > "$AVATAR_SVG" << 'EOF'
 </g>
 </svg>
 EOF
+echo -e "${GREEN}✓${NC} Generating avatar.png and avatar.webp (1000x1000 with 10% padding)"
+# Generate both formats directly from SVG
 magick +antialias -background none -size 1000x1000 "$AVATAR_SVG" PNG32:"$IMAGES_DIR/avatar.png"
+magick +antialias -background none -size 1000x1000 "$AVATAR_SVG" -quality 100 -define webp:lossless=true "$IMAGES_DIR/avatar.webp"
 
 echo -e "\n${BLUE}✨ All favicons and avatar generated successfully!${NC}"
 echo -e "\nGenerated files:"
-ls -lh "$FAVICON_DIR"/*.png "$FAVICON_DIR"/*.ico "$IMAGES_DIR/avatar.png" 2>/dev/null | awk '{printf "  %s (%s)\n", $9, $5}'
+ls -lh "$FAVICON_DIR"/*.png "$FAVICON_DIR"/*.ico "$IMAGES_DIR/avatar.png" "$IMAGES_DIR/avatar.webp" 2>/dev/null | awk '{printf "  %s (%s)\n", $9, $5}'
 
 # Temporary files will be cleaned up automatically via trap
