@@ -39,34 +39,34 @@ EOF
 
 # Generate PNG favicons with exact sizes for crisp rendering
 echo -e "${GREEN}✓${NC} Generating favicon-16x16.png"
-magick -background none -size 16x16 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/favicon-16x16.png"
+magick +antialias -background none -size 16x16 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/favicon-16x16.png"
 
 echo -e "${GREEN}✓${NC} Generating favicon-32x32.png"
-magick -background none -size 32x32 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/favicon-32x32.png"
+magick +antialias -background none -size 32x32 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/favicon-32x32.png"
 
 echo -e "${GREEN}✓${NC} Generating favicon-48x48.png"
-magick -background none -size 48x48 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/favicon-48x48.png"
+magick +antialias -background none -size 48x48 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/favicon-48x48.png"
 
 echo -e "${GREEN}✓${NC} Generating android-chrome-96x96.png"
-magick -background none -size 96x96 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/android-chrome-96x96.png"
+magick +antialias -background none -size 96x96 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/android-chrome-96x96.png"
 
 echo -e "${GREEN}✓${NC} Generating apple-touch-icon.png (180x180)"
-magick -background none -size 180x180 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/apple-touch-icon.png"
+magick +antialias -background none -size 180x180 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/apple-touch-icon.png"
 
 echo -e "${GREEN}✓${NC} Generating android-chrome-192x192.png"
-magick -background none -size 192x192 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/android-chrome-192x192.png"
+magick +antialias -background none -size 192x192 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/android-chrome-192x192.png"
 
 echo -e "${GREEN}✓${NC} Generating android-chrome-512x512.png"
-magick -background none -size 512x512 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/android-chrome-512x512.png"
+magick +antialias -background none -size 512x512 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/android-chrome-512x512.png"
 
 echo -e "${GREEN}✓${NC} Generating apple-touch-icon-152x152.png (iPad)"
-magick -background none -size 152x152 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/apple-touch-icon-152x152.png"
+magick +antialias -background none -size 152x152 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/apple-touch-icon-152x152.png"
 
 echo -e "${GREEN}✓${NC} Generating mstile-150x150.png"
-magick -background none -size 150x150 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/mstile-150x150.png"
+magick +antialias -background none -size 150x150 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/mstile-150x150.png"
 
 echo -e "${GREEN}✓${NC} Generating icon-1024.png (future-proof)"
-magick -background none -size 1024x1024 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/icon-1024.png"
+magick +antialias -background none -size 1024x1024 "$SOURCE_SVG" PNG32:"$FAVICON_DIR/icon-1024.png"
 
 echo -e "${GREEN}✓${NC} Generating favicon.ico (multi-size)"
 magick "$FAVICON_DIR/favicon-16x16.png" \
@@ -91,7 +91,7 @@ cat > "avatar-source.svg" << 'EOF'
 </g>
 </svg>
 EOF
-magick -background none -size 1024x1024 "avatar-source.svg" PNG32:"$IMAGES_DIR/avatar.png"
+magick +antialias -background none -size 1024x1024 "avatar-source.svg" PNG32:"$IMAGES_DIR/avatar.png"
 rm -f "avatar-source.svg"
 
 echo -e "\n${BLUE}✨ All favicons and avatar generated successfully!${NC}"
