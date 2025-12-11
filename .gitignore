@@ -49,3 +49,4 @@ yarn-error.log*
 
 # Tags
 app/tag-data.json
+tsconfig.tsbuildinfo
