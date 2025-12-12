@@ -7,8 +7,10 @@
 /* Core theme configuration */
 @theme {
   /* Font families */
-  --font-sans: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-mono: var(--font-code), ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas,
+    'DejaVu Sans Mono', monospace;
 
   /* Colors */
   /* Copied from https://tailwindcss.com/docs/theme#default-theme-variable-reference */
@@ -79,6 +81,11 @@
 }
 
 @layer utilities {
+  /* Apply heading font to all headings */
+  :where(h1, h2, h3, h4, h5, h6) {
+    font-family: var(--font-heading), ui-sans-serif, system-ui, sans-serif;
+  }
+
   .prose {
     & a {
       color: var(--color-primary-500);
